@@ -1,0 +1,150 @@
+// Objetivo: buscar dentro de las certificaciones la ultima que coincida con usuario y partner y ver en que intento va y sumarle uno al conteo
+dataCert0to200 = zoho.people.getRecords("Kind_of_Formation",0,200);
+dataCert200to400 = zoho.people.getRecords("Kind_of_Formation",201,200);
+dataCert400to600 = zoho.people.getRecords("Kind_of_Formation",401,200);
+totalDataCert = List();
+totalDataCert.addAll(dataCert0to200);
+totalDataCert.addAll(dataCert200to400);
+totalDataCert.addAll(dataCert400to600);
+users = totalDataCert;
+for each  user in users
+{
+certification = user.get("Name");
+person = user.get("Person");
+status = user.get("Status");
+acStatus = user.get("Acreditation_Status");
+attempt = user.get("Attemp_type");
+partName = user.get("Partner");
+dataSecond = {"Attemp_type":"Second"};
+if(person == employee && certification == cert && partName == par)
+{
+	idUser = user.get("Zoho_ID");
+	attempt_count = user.get("Attempt_Count");
+	if(status == "Complete" && acStatus == "Passed")
+	{
+		attemptAdd = attempt_count.toNumber() + 1;
+		attemptString = attemptAdd.toString();
+		info attemptAdd;
+		data4 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"Renovation","Attempt_Count":attemptAdd};
+		response = zoho.people.create("Kind_of_Formation",data4);
+		sendmail
+		[
+			from :zoho.loginuserid
+			to :"alejandro.alvarez@beyondtechnology.net"
+			subject :"data ccct"
+			message :response
+		]
+		sendmail
+		[
+			from :zoho.loginuserid
+			to :"alejandro.alvarez@beyondtechnology.net"
+			subject :"data ccct 2"
+			message :data4
+		]
+		return;
+	}
+	if(acStatus == "Failed" && attempt == "First")
+	{
+		info "change to second";
+		// ingresa el conteo del intento y le suma 1 
+		attemptAdd = attempt_count.toNumber() + 1;
+		attemptString = attemptAdd.toString();
+		info attemptAdd;
+		data = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"Second","Attempt_Count":attemptAdd};
+		response = zoho.people.create("Kind_of_Formation",data);
+		return;
+	}
+	if(acStatus == "Failed" && attempt == "Second")
+	{
+		attemptAdd = attempt_count.toNumber() + 1;
+		attemptString = attemptAdd.toString();
+		info attemptAdd;
+		data2 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"Third","Attempt_Count":attemptAdd};
+		response = zoho.people.create("Kind_of_Formation",data2);
+		sendmail
+		[
+			from :zoho.loginuserid
+			to :"alejandro.alvarez@beyondtechnology.net"
+			subject :"data ccct"
+			message :response
+		]
+		sendmail
+		[
+			from :zoho.loginuserid
+			to :"alejandro.alvarez@beyondtechnology.net"
+			subject :"data ccct 2"
+			message :data2
+		]
+		return;
+	}
+	if(acStatus == "Failed" && attempt == "Third")
+	{
+		attemptAdd = attempt_count.toNumber() + 1;
+		attemptString = attemptAdd.toString();
+		info attemptAdd;
+		data3 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"More than 4","Attempt_Count":attemptAdd};
+		response = zoho.people.create("Kind_of_Formation",data3);
+		sendmail
+		[
+			from :zoho.loginuserid
+			to :"alejandro.alvarez@beyondtechnology.net"
+			subject :"data ccct"
+			message :response
+		]
+		sendmail
+		[
+			from :zoho.loginuserid
+			to :"alejandro.alvarez@beyondtechnology.net"
+			subject :"data ccct 2"
+			message :data3
+		]
+		return;
+	}
+	if(acStatus == "Failed" && attempt == "More than 4")
+	{
+		attemptAdd = attempt_count.toNumber() + 1;
+		attemptString = attemptAdd.toString();
+		info attemptAdd;
+		data4 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"More than 4","Attempt_Count":attemptAdd};
+		response = zoho.people.create("Kind_of_Formation",data4);
+		sendmail
+		[
+			from :zoho.loginuserid
+			to :"alejandro.alvarez@beyondtechnology.net"
+			subject :"data ccct"
+			message :response
+		]
+		sendmail
+		[
+			from :zoho.loginuserid
+			to :"alejandro.alvarez@beyondtechnology.net"
+			subject :"data ccct 2"
+			message :data4
+		]
+		return;
+	}
+}
+else
+{
+	info "create person & certificación";
+	info employee;
+	info cert;
+	data = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"First"};
+	response = zoho.people.create("Kind_of_Formation",data);
+	sendmail
+	[
+		from :zoho.loginuserid
+		to :"alejandro.alvarez@beyondtechnology.net"
+		subject :"data ccct"
+		message :response
+	]
+	sendmail
+	[
+		from :zoho.loginuserid
+		to :"alejandro.alvarez@beyondtechnology.net"
+		subject :"data ccct 2"
+		message :data
+	]
+	return;
+}
+}
