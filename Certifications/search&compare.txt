@@ -7,6 +7,13 @@ totalDataCert.addAll(dataCert0to200);
 totalDataCert.addAll(dataCert200to400);
 totalDataCert.addAll(dataCert400to600);
 users = totalDataCert;
+getRecord = idCCR;
+tabular = getRecord.get("tabularSections").get("Objectives");
+objectives_list = List();
+for each  obj in tabular
+{
+objectives_list.addAll(obj.get("Objective_Name.ID"));
+}
 for each  user in users
 {
 certification = user.get("Name");
@@ -25,7 +32,7 @@ if(person == employee && certification == cert && partName == par)
 		attemptAdd = attempt_count.toNumber() + 1;
 		attemptString = attemptAdd.toString();
 		info attemptAdd;
-		data4 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"Renovation","Attempt_Count":attemptAdd};
+		data4 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"Renovation","Attempt_Count":attemptAdd,"Objective_Name":objectives_list,"Requested_by":requestedBy};
 		response = zoho.people.create("Kind_of_Formation",data4);
 		sendmail
 		[
@@ -50,7 +57,7 @@ if(person == employee && certification == cert && partName == par)
 		attemptAdd = attempt_count.toNumber() + 1;
 		attemptString = attemptAdd.toString();
 		info attemptAdd;
-		data = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"Second","Attempt_Count":attemptAdd};
+		data = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"Second","Attempt_Count":attemptAdd,"Objective_Name":objectives_list,"Requested_by":requestedBy};
 		response = zoho.people.create("Kind_of_Formation",data);
 		return;
 	}
@@ -59,7 +66,7 @@ if(person == employee && certification == cert && partName == par)
 		attemptAdd = attempt_count.toNumber() + 1;
 		attemptString = attemptAdd.toString();
 		info attemptAdd;
-		data2 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"Third","Attempt_Count":attemptAdd};
+		data2 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"Third","Attempt_Count":attemptAdd,"Objective_Name":objectives_list,"Requested_by":requestedBy};
 		response = zoho.people.create("Kind_of_Formation",data2);
 		sendmail
 		[
@@ -82,7 +89,7 @@ if(person == employee && certification == cert && partName == par)
 		attemptAdd = attempt_count.toNumber() + 1;
 		attemptString = attemptAdd.toString();
 		info attemptAdd;
-		data3 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"More than 4","Attempt_Count":attemptAdd};
+		data3 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"More than 4","Attempt_Count":attemptAdd,"Objective_Name":objectives_list,"Requested_by":requestedBy};
 		response = zoho.people.create("Kind_of_Formation",data3);
 		sendmail
 		[
@@ -105,7 +112,7 @@ if(person == employee && certification == cert && partName == par)
 		attemptAdd = attempt_count.toNumber() + 1;
 		attemptString = attemptAdd.toString();
 		info attemptAdd;
-		data4 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"More than 4","Attempt_Count":attemptAdd};
+		data4 = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"More than 4","Attempt_Count":attemptAdd,"Objective_Name":objectives_list,"Requested_by":requestedBy};
 		response = zoho.people.create("Kind_of_Formation",data4);
 		sendmail
 		[
@@ -129,7 +136,7 @@ else
 	info "create person & certificación";
 	info employee;
 	info cert;
-	data = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Expedition_date":dateOfExpedition,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"First"};
+	data = {"Partner":partner,"Level":level,"Person":Id,"Name":certName,"Cost_Certification":cost,"Maximum_accreditation_date":tentativeDate,"Attemp_type":"First","Objective_Name":objectives_list,"Requested_by":requestedBy};
 	response = zoho.people.create("Kind_of_Formation",data);
 	sendmail
 	[
