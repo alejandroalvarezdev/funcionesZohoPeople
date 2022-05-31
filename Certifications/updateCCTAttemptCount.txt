@@ -1,0 +1,33 @@
+
+dataCert0to200 = zoho.people.getRecords("Kind_of_Formation",0,200);
+dataCert200to400 = zoho.people.getRecords("Kind_of_Formation",201,200);
+dataCert400to600 = zoho.people.getRecords("Kind_of_Formation",401,200);
+totalDataCert = List();
+totalDataCert.addAll(dataCert0to200);
+totalDataCert.addAll(dataCert200to400);
+totalDataCert.addAll(dataCert400to600);
+users = totalDataCert;
+for each  user in users
+{
+//obtenemos nombre de usuario,partner y certificacion de Kind of Formation
+certification = user.get("Name");
+person = user.get("Person");
+partName = user.get("Partner");
+attempt_count = user.get("Attempt_Count");
+// 	info user; toda la data de Certifications 
+if(person == UserName && certification == certName && partName == partner)
+{
+	param_map = Map();
+	param_map.put("attempt_count",attempt_count);
+	param_map.put("recordid",IdCCR);
+	response = zoho.people.update("CCT_Request",param_map);
+	sendmail
+	[
+		from :zoho.loginuserid
+		to :"alejandro.alvarez@beyondtechnology.net"
+		subject :"response"
+		message :response
+	]
+	return;
+}
+}

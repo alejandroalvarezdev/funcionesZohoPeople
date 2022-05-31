@@ -1,0 +1,25 @@
+
+getRecord = zoho.people.getRecordByID("CCT_Request",Id);
+exam = getRecord.get("Exam_Date");
+user = getRecord.get("Employee1");
+today = today;
+messageT = "We want to inform you that (nombre del colaborador) " + " " + user + " " + "is requesting to change the exam date of the certification (nombre de la certificación).";
+info messageT;
+daysCompare = exam.daysBetween(today);
+if(daysCompare >= 0)
+
+sendmail
+[
+	from :zoho.loginuserid
+	to :"alejandro.alvarez@beyondtechnology.net"
+	subject :"Exam field has been updated"
+	message :messageT
+]
+}
+if(daysCompare < 0)
+{
+param_map = Map();
+param_map.put("Date_Approval",true);
+param_map.put("recordid",Id);
+response = zoho.people.update("CCT_Request",param_map);
+}
