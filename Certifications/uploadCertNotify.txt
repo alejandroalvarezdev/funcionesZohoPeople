@@ -1,0 +1,69 @@
+
+dataHC0to200 = zoho.people.getRecords("Head_Count",0,200);
+dataHC200to400 = zoho.people.getRecords("Head_Count",201,200);
+dataHC400to600 = zoho.people.getRecords("Head_Count",401,200);
+totalDataHC = List();
+totalDataHC.addAll(dataHC0to200);
+totalDataHC.addAll(dataHC200to400);
+totalDataHC.addAll(dataHC400to600);
+dataDoss0to200 = zoho.people.getRecords("Dossier",0,200);
+dataDoss200to400 = zoho.people.getRecords("Dossier",201,200);
+dataDoss400to600 = zoho.people.getRecords("Dossier",401,200);
+totalDataDoss = List();
+totalDataDoss.addAll(dataDoss0to200);
+totalDataDoss.addAll(dataDoss200to400);
+totalDataDoss.addAll(dataDoss400to600);
+///end of Data 
+for each  record in totalDataHC
+{
+//user Data -name, email, reporting to Id-
+user = record.get("ID_Employee1.ID");
+if(user == recordUserID)
+{
+	userName = record.get("ID_Employee1");
+	reportingTo = record.get("Line_Manager1.ID");
+	//reporting data
+	for each  repRecord in totalDataHC
+	{
+		reportingU = repRecord.get("ID_Employee1.ID");
+		if(reportingU == reportingTo)
+		{
+			emailRepTo = repRecord.get("Email");
+		}
+	}
+	email = record.get("Email");
+	for each  dossRecord in totalDataDoss
+	{
+		dossUserID = dossRecord.get("Employee1.ID");
+		if(dossUserID == recordUserID)
+		{
+			dossUserName = dossRecord.get("Employee1");
+			tabular = dossRecord.get("tabularSections").get("Certification Files");
+			objectives_list = List();
+			for each  obj in tabular
+			{
+				objectives_list.addAll(obj.get("Certificate"));
+				objList = objectives_list.toCollection();
+				// 				info objList;
+				messageU = "Hi," + name + " " + "Wishing you have achieved your goal, we ask you to help us in uploading your certificate in the dossier section and the obtained grade in your certification " + " " + certName + " " + "in the score field. Additional, please update the actual status to “terminated” and then, depending on your result the accreditation status to “failed” or “passed”. If you accredited the certification and it has an expiration date also enter that date.Thanks!";
+				if(objList.isEmpty() != true)
+				{
+					sendmail
+					[
+						from :zoho.loginuserid
+						to :email
+						cc:emailRepTo
+						subject :"Employee has updated exam date"
+						message :messageU
+					]
+				}
+				else
+				{
+					info "esta vacio";
+				}
+				return;
+			}
+		}
+	}
+}
+}
