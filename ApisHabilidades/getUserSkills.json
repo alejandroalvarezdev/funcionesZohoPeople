@@ -1,0 +1,130 @@
+url = "https://people.zoho.com/people/api/performance/skills/getUserSkills";
+param_map = Map();
+param_map.put("userErecNo","643576000000859150");
+response = invokeurl
+[
+url :url
+type :GET
+parameters:param_map
+connection:"peoplecustomfunctionperformance"
+];
+info response ;
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [{
+                "employee.ID": "Emp333",
+                "owner": "643576000000859150",
+                "skillSetWeightage": 0,
+                "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDescription": "Es la capacidad para sobrevivir y/o recuperarse de situaciones desfavorables que afecten al propio sector de negocio o al sector del cliente; incluye más no se limita a contextos en donde el cierre de oportunidades puede verse dificultado por: la ruptura de la cadena de pagos, un mercado en recesión, cambios administrativos, un sector en huelga o paro. Positivamente se relaciona con valores como la prudencia, la sensatez en la toma de decisiones complejas y la resiliencia.",
+                "skillSetScore": 0,
+                "skillSetId": "643576000001305167",
+                "assignby.recordID": "643576000000859150",
+                "assignby.ID": "Emp333",
+                "skillSetScoreId": "643576000001375185",
+                "skillSetName": "Capacidad para Sobreponerse a Circunstancias Adversas",
+                "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDate": "1646678121436",
+                "employee.recordID": "643576000000859150"
+            }, {
+                "employee.ID": "Emp333",
+                "owner": "643576000000859150",
+                "skillSetWeightage": 0,
+                "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDescription": "Habilidad para establecer y mantener en el tiempo relaciones cordiales y reciprocas con redes complejas de personas cuya cooperación es necesaria para el logro de la venta.",
+                "skillSetScore": 0,
+                "skillSetId": "643576000001305161",
+                "assignby.recordID": "643576000000859150",
+                "assignby.ID": "Emp333",
+                "skillSetScoreId": "643576000001375189",
+                "skillSetName": "Relacionamiento | Networking",
+                "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDate": "1646678121436",
+                "employee.recordID": "643576000000859150"
+            }, {
+                "employee.ID": "Emp333",
+                "owner": "643576000000859150",
+                "skillSetWeightage": 0,
+                "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDescription": "Es la capacidad de comprender las necesidades del o los clientes, la de los usuarios finales y prever las tendencias oportunidades del mercado, las amenazas de las empresas competidoras y los puntos fuertes y débiles de la propia oferta de productos y servicios. Implica la habilidad de entender y adaptarse a cualquier contexto empresarial, comprender rápidamente la cultura organizacional, la realidad del cliente y ser capaz de analizar y tomar decisiones basado en la información del negocio.",
+                "skillSetScore": 0,
+                "skillSetId": "643576000001305155",
+                "assignby.recordID": "643576000000859150",
+                "assignby.ID": "Emp333",
+                "skillSetScoreId": "643576000001375193",
+                "skillSetName": "Conocimiento del Cliente, sus Necesidades y su Industria (Ventas)",
+                "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDate": "1646678121436",
+                "employee.recordID": "643576000000859150"
+            }, {
+                "employee.ID": "Emp333",
+                "owner": "643576000000859150",
+                "skillSetWeightage": 0,
+                "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDescription": "Es la habilidad para trabajar efectivamente con otras personas para alcanzar objetivos compartidos.",
+                "skillSetScore": 0,
+                "skillSetId": "643576000001305131",
+                "assignby.recordID": "643576000000859150",
+                "assignby.ID": "Emp333",
+                "skillSetScoreId": "643576000001375197",
+                "skillSetName": "Trabajo en Equipo",
+                "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDate": "1646678121436",
+                "employee.recordID": "643576000000859150"
+            }, {
+                "employee.ID": "Emp333",
+                "owner": "643576000000859150",
+                "skillSetWeightage": 0,
+                "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDescription": "Es la capacidad de encaminar todos los actos al logro de lo esperado, actuando con velocidad y sentido de urgencia para cumplir o superar los objetivos propuestos. Incluye la correcta administración de los procesos establecidos con el fin de garantizar que estos no interfieran con la obtención de los resultados esperados.",
+                "skillSetScore": 0,
+                "skillSetId": "643576000001305125",
+                "assignby.recordID": "643576000000859150",
+                "assignby.ID": "Emp333",
+                "skillSetScoreId": "643576000001375201",
+                "skillSetName": "Orientación a Resultados",
+                "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDate": "1646678121436",
+                "employee.recordID": "643576000000859150"
+            }, {
+                "employee.ID": "Emp333",
+                "owner": "643576000000859150",
+                "skillSetWeightage": 0,
+                "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDescription": "Se define como la actitud permanente de servicio ante clientes actuales o potenciales. Manteniendo una interacción cuidadosa y respetuosa garantizando la máxima satisfacción del cliente. Incluye, más no se limita a la escucha activa de los requerimientos, el acompañamiento y la generación de soluciones de valor.",
+                "skillSetScore": 0,
+                "skillSetId": "643576000001305119",
+                "assignby.recordID": "643576000000859150",
+                "assignby.ID": "Emp333",
+                "skillSetScoreId": "643576000001375205",
+                "skillSetName": "Orientación al Cliente",
+                "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDate": "1646678121436",
+                "employee.recordID": "643576000000859150"
+            }, {
+                "employee.ID": "Emp333",
+                "owner": "643576000000859150",
+                "skillSetWeightage": 25,
+                "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDescription": "Es la capacidad de escuchar activamente, hacer preguntas adecuadas, comprender los estados de ánimo, motivaciones y razones en general de su interlocutor y expresar conceptos e ideas en forma efectiva. Incluye la capacidad de comunicar por escrito de forma clara y concisa, el comprender la dinámica de grupos y el diseño efectivo de reuniones.",
+                "skillSetScore": 0,
+                "skillSetId": "643576000001305113",
+                "assignby.recordID": "643576000000859150",
+                "assignby.ID": "Emp333",
+                "skillSetScoreId": "643576000001375209",
+                "skillSetName": "Empatía y Comunicación (Contribuidores Individuales)",
+                "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                "skillSetDate": "1646678121436",
+                "employee.recordID": "643576000000859150"
+            }],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}

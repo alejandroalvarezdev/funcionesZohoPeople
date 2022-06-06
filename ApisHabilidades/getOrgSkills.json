@@ -1,0 +1,48 @@
+url = "https://people.zoho.com/people/api/performance/skills/getOrgSkills";
+response = invokeurl
+[
+url :url
+type :GET
+connection: "peoplecustomfunctionperformance"
+];
+info response ;
+
+{
+    "response": {
+        "result": {
+            "skills": [
+                {
+                    "skillsName": "Capacidad para Sobreponerse a Circunstancias Adversas",
+                    "skillsId": "643576000001305167"
+                },
+                {
+                    "skillsName": "Relacionamiento | Networking",
+                    "skillsId": "643576000001305161"
+                },
+                {
+                    "skillsName": "Conocimiento del Cliente, sus Necesidades y su Industria (Ventas)",
+                    "skillsId": "643576000001305155"
+                },
+                {
+                    "skillsName": "Trabajo en Equipo",
+                    "skillsId": "643576000001305131"
+                },
+                {
+                    "skillsName": "Orientación a Resultados",
+                    "skillsId": "643576000001305125"
+                },
+                {
+                    "skillsName": "Orientación al Cliente",
+                    "skillsId": "643576000001305119"
+                },
+                {
+                    "skillsName": "Empatía y Comunicación (Contribuidores Individuales)",
+                    "skillsId": "643576000001305113"
+                }
+            ]
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getOrgSkills",
+        "status": 0
+    }
+}

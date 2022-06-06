@@ -1,0 +1,55 @@
+url ="https://people.zoho.com/people/api/performance/skills/getusersbyskill";
+param_map = Map();
+param_map.put("skills","Empatía y Comunicación (Contribuidores Individuales)");
+response = invokeurl
+[
+url :url
+type :GET
+parameters:param_map
+connection:"peoplecustomfunctionperformance"
+];
+info response ;
+
+{
+    "response": {
+        "result": {
+            "Trabajo en Equipo": [
+                {
+                    "erecno": "643576000000203001",
+                    "empName": "hla.backofficeadmin Q&A",
+                    "zuid": 749364573
+                },
+                {
+                    "erecno": "643576000000859150",
+                    "empName": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "zuid": 762326270
+                }
+            ]
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getusersbyskill",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "Empatía y Comunicación (Contribuidores Individuales)": [
+                {
+                    "erecno": "643576000000203001",
+                    "empName": "hla.backofficeadmin Q&A",
+                    "zuid": 749364573
+                },
+                {
+                    "erecno": "643576000000859150",
+                    "empName": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "zuid": 762326270
+                }
+            ]
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getusersbyskill",
+        "status": 0
+    }
+}
