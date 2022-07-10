@@ -1,0 +1,48 @@
+url = "https://people.zoho.com/api/forms/Habilidad_empleados/getRecordByID?recordId=" + recordId;
+response2 = invokeurl
+[
+url :url
+type :GET
+connection: "peoplecustomfunction"
+];
+info response2 ;
+
+{
+    "response": {
+        "result": [
+            {
+                "Registro": {
+                    "ModifiedBy.ID": "643576000000203001",
+                    "ModifiedTime": "07-10-2022 17:20:26",
+                    "AddedBy.ID": "643576000000203001",
+                    "AddedTime": "07-10-2022 17:00:43",
+                    "ModifiedBy": "Emp001 - hla.backofficeadmin - Q&A",
+                    "AddedBy": "Emp001 - hla.backofficeadmin - Q&A"
+                },
+                "tabularSections": {
+                    "Detalles": [
+                        {
+                            "Empleado": "Emp001 - hla.backofficeadmin - Q&A",
+                            "Peso": "56",
+                            "Empleado.ID": "643576000000203001",
+                            "tabular.ROWID": "643576000001695281"
+                        },
+                        {
+                            "Empleado": "Emp283 - GASTON ADOLFO - PERNALETE ARAUJO",
+                            "Peso": "25",
+                            "Empleado.ID": "643576000000239086",
+                            "tabular.ROWID": "643576000001695283"
+                        }
+                    ]
+                },
+                "Habilidad / empleados Details": {
+                    "Habilidad": "Empatía y Comunicación (Contribuidores Individuales)"
+                },
+                "ApprovalStatus": "Approval Not Enabled"
+            }
+        ],
+        "message": "Data fetched successfully",
+        "uri": "/api/forms/Habilidad_empleados/getRecordByID",
+        "status": 0
+    }
+}

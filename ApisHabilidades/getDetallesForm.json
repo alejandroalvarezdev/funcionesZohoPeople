@@ -1,0 +1,271 @@
+url = "https://people.zoho.com/api/forms/Habilidad_empleados/components";
+response = invokeUrl [
+	url: url
+	type: GET
+	connection: "peoplecustomfunction"
+];
+info response ;
+
+{
+    "response": {
+        "result": [
+            {
+                "comptype": "Text",
+                "ismandatory": false,
+                "displayname": "Habilidad",
+                "autofillvalue": "",
+                "description": "",
+                "formcomponentid": 643576000001695017,
+                "labelname": "Habilidad",
+                "maxLength": 255
+            },
+            {
+                "comptype": "Lookup",
+                "Options": {
+                    "Option4": {
+                        "Value": " Emp363 - JOSE LUIS - MARTINEZ",
+                        "Id": "643576000000239158"
+                    },
+                    "Option3": {
+                        "Value": " Emp182 - FELIPE - BARRERA",
+                        "Id": "643576000000239122"
+                    },
+                    "Option2": {
+                        "Value": " Emp283 - GASTON ADOLFO - PERNALETE ARAUJO",
+                        "Id": "643576000000239086"
+                    },
+                    "Option1": {
+                        "Value": " Emp001 - hla.backofficeadmin - Q&A",
+                        "Id": "643576000000203001"
+                    },
+                    "Option10": {
+                        "Value": " Emp315 - JORGE - SUSUNAGA SALAZAR",
+                        "Id": "643576000000651775"
+                    },
+                    "Option11": {
+                        "Value": " Emp333 - CARLOS MAURICIO - CARRASCO BALANZA",
+                        "Id": "643576000000859150"
+                    },
+                    "Option12": {
+                        "Value": " Emp103 - ANNA - BRIK",
+                        "Id": "643576000001432579"
+                    },
+                    "Option13": {
+                        "Value": " Emp237 - SONIA - VARGAS",
+                        "Id": "643576000001432615"
+                    },
+                    "Option9": {
+                        "Value": " Emp356 - VERONICA - NOVELA PRIETO",
+                        "Id": "643576000000578315"
+                    },
+                    "Option8": {
+                        "Value": " Emp319 - JUAN CARLOS - TORRES PEREZ",
+                        "Id": "643576000000578247"
+                    },
+                    "Option7": {
+                        "Value": " Emp317 - JUAN CARLOS - JIMENEZ GONZALEZ",
+                        "Id": "643576000000578213"
+                    },
+                    "Option6": {
+                        "Value": " Emp357 - LELIANE VERUSKA - VILLEGAS CRUZ",
+                        "Id": "643576000000239342"
+                    },
+                    "Option5": {
+                        "Value": " Emp308 - JESUS EDUARDO - MORENO SANCHEZ",
+                        "Id": "643576000000239194"
+                    }
+                },
+                "description": "",
+                "labelname": "AddedBy",
+                "ismandatory": false,
+                "displayType": "Pick_List",
+                "ReferedFormId": 643576000000035679,
+                "isPrimary": true,
+                "displayname": "Added By",
+                "autofillvalue": "",
+                "formcomponentid": 643576000001678075,
+                "ReferedFormName": "P_Employee",
+                "ReferedFieldId": 643576000000036253,
+                "ReferedFieldName": "EmployeeID"
+            },
+            {
+                "comptype": "Datetime",
+                "ismandatory": false,
+                "displayname": "Added Time",
+                "autofillvalue": "",
+                "description": "",
+                "formcomponentid": 643576000001678077,
+                "labelname": "AddedTime"
+            },
+            {
+                "comptype": "Lookup",
+                "Options": {
+                    "Option4": {
+                        "Value": " Emp363 - JOSE LUIS - MARTINEZ",
+                        "Id": "643576000000239158"
+                    },
+                    "Option3": {
+                        "Value": " Emp182 - FELIPE - BARRERA",
+                        "Id": "643576000000239122"
+                    },
+                    "Option2": {
+                        "Value": " Emp283 - GASTON ADOLFO - PERNALETE ARAUJO",
+                        "Id": "643576000000239086"
+                    },
+                    "Option1": {
+                        "Value": " Emp001 - hla.backofficeadmin - Q&A",
+                        "Id": "643576000000203001"
+                    },
+                    "Option10": {
+                        "Value": " Emp315 - JORGE - SUSUNAGA SALAZAR",
+                        "Id": "643576000000651775"
+                    },
+                    "Option11": {
+                        "Value": " Emp333 - CARLOS MAURICIO - CARRASCO BALANZA",
+                        "Id": "643576000000859150"
+                    },
+                    "Option12": {
+                        "Value": " Emp103 - ANNA - BRIK",
+                        "Id": "643576000001432579"
+                    },
+                    "Option13": {
+                        "Value": " Emp237 - SONIA - VARGAS",
+                        "Id": "643576000001432615"
+                    },
+                    "Option9": {
+                        "Value": " Emp356 - VERONICA - NOVELA PRIETO",
+                        "Id": "643576000000578315"
+                    },
+                    "Option8": {
+                        "Value": " Emp319 - JUAN CARLOS - TORRES PEREZ",
+                        "Id": "643576000000578247"
+                    },
+                    "Option7": {
+                        "Value": " Emp317 - JUAN CARLOS - JIMENEZ GONZALEZ",
+                        "Id": "643576000000578213"
+                    },
+                    "Option6": {
+                        "Value": " Emp357 - LELIANE VERUSKA - VILLEGAS CRUZ",
+                        "Id": "643576000000239342"
+                    },
+                    "Option5": {
+                        "Value": " Emp308 - JESUS EDUARDO - MORENO SANCHEZ",
+                        "Id": "643576000000239194"
+                    }
+                },
+                "description": "",
+                "labelname": "ModifiedBy",
+                "ismandatory": false,
+                "displayType": "Pick_List",
+                "ReferedFormId": 643576000000035679,
+                "isPrimary": false,
+                "displayname": "Modified By",
+                "autofillvalue": "",
+                "formcomponentid": 643576000001678083,
+                "ReferedFormName": "P_Employee",
+                "ReferedFieldId": 643576000000036253,
+                "ReferedFieldName": "EmployeeID"
+            },
+            {
+                "comptype": "Datetime",
+                "ismandatory": false,
+                "displayname": "Modified Time",
+                "autofillvalue": "",
+                "description": "",
+                "formcomponentid": 643576000001678085,
+                "labelname": "ModifiedTime"
+            },
+            {
+                "tabularSections": [
+                    {
+                        "sectionId": 643576000001695055,
+                        "Detalles": [
+                            {
+                                "comptype": "Lookup",
+                                "Options": {
+                                    "Option4": {
+                                        "Value": " Emp363 - JOSE LUIS - MARTINEZ",
+                                        "Id": "643576000000239158"
+                                    },
+                                    "Option3": {
+                                        "Value": " Emp182 - FELIPE - BARRERA",
+                                        "Id": "643576000000239122"
+                                    },
+                                    "Option2": {
+                                        "Value": " Emp283 - GASTON ADOLFO - PERNALETE ARAUJO",
+                                        "Id": "643576000000239086"
+                                    },
+                                    "Option1": {
+                                        "Value": " Emp001 - hla.backofficeadmin - Q&A",
+                                        "Id": "643576000000203001"
+                                    },
+                                    "Option10": {
+                                        "Value": " Emp315 - JORGE - SUSUNAGA SALAZAR",
+                                        "Id": "643576000000651775"
+                                    },
+                                    "Option11": {
+                                        "Value": " Emp333 - CARLOS MAURICIO - CARRASCO BALANZA",
+                                        "Id": "643576000000859150"
+                                    },
+                                    "Option12": {
+                                        "Value": " Emp103 - ANNA - BRIK",
+                                        "Id": "643576000001432579"
+                                    },
+                                    "Option13": {
+                                        "Value": " Emp237 - SONIA - VARGAS",
+                                        "Id": "643576000001432615"
+                                    },
+                                    "Option9": {
+                                        "Value": " Emp356 - VERONICA - NOVELA PRIETO",
+                                        "Id": "643576000000578315"
+                                    },
+                                    "Option8": {
+                                        "Value": " Emp319 - JUAN CARLOS - TORRES PEREZ",
+                                        "Id": "643576000000578247"
+                                    },
+                                    "Option7": {
+                                        "Value": " Emp317 - JUAN CARLOS - JIMENEZ GONZALEZ",
+                                        "Id": "643576000000578213"
+                                    },
+                                    "Option6": {
+                                        "Value": " Emp357 - LELIANE VERUSKA - VILLEGAS CRUZ",
+                                        "Id": "643576000000239342"
+                                    },
+                                    "Option5": {
+                                        "Value": " Emp308 - JESUS EDUARDO - MORENO SANCHEZ",
+                                        "Id": "643576000000239194"
+                                    }
+                                },
+                                "description": "",
+                                "labelname": "Empleado",
+                                "ismandatory": false,
+                                "displayType": "Pick_List",
+                                "ReferedFormId": 643576000000035679,
+                                "isPrimary": false,
+                                "displayname": "Empleado",
+                                "autofillvalue": "",
+                                "formcomponentid": 643576000001695109,
+                                "ReferedFormName": "P_Employee",
+                                "ReferedFieldId": 643576000000036253,
+                                "ReferedFieldName": "EmployeeID"
+                            },
+                            {
+                                "comptype": "Text",
+                                "ismandatory": false,
+                                "displayname": "Peso",
+                                "autofillvalue": "",
+                                "description": "",
+                                "formcomponentid": 643576000001695177,
+                                "labelname": "Peso",
+                                "maxLength": 255
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "message": "Data fetched successfully",
+        "uri": "/api/forms/Habilidad_empleados/components",
+        "status": 0
+    }
+}
