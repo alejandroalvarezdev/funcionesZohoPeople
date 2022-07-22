@@ -1,0 +1,30 @@
+//Esta funcoin se realiza en el modulo de programaciones dentro de zoho people
+
+Hoy = today;
+contador = 0;
+iterador = {0,1,2,3,4,5,6};
+for each  i in iterador
+{
+fromIndex = i * 200;
+certificaciones = zoho.people.getRecords("Asignacion",fromIndex,200);
+for each  certificacionExamen in certificaciones
+{
+	if(certificacionExamen.get("message") != "No records found")
+	{
+		fechaExamen = certificacionExamen.get("Fecha_a_realizar_el_examen");
+		empleado = zoho.people.getRecordByID("employee",certificacionExamen.get("Empleado.ID"));
+		correoEmpleado = empleado.get("EmailID");
+		diasRestantes = Hoy.daysbetween(fechaExamen);
+		if(diasRestantes >= 0)
+		{
+			sendmail
+			[
+				from :zoho.loginuserid
+				to :correoEmpleado
+				subject :"Recordatorio certificación"
+				message :"<h3>Hola</h3>Te recordamos la fecha para presentar tu examen de la certificación " + certificacionExamen.get("Examen_Certificacion") + " es " + fechaExamen
+			]
+		}
+	}
+}
+}
