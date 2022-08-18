@@ -46,3 +46,60 @@ info response ;
         "status": 0
     }
 }
+
+{
+    "response": {
+        "result": {
+            "skills": [
+                {
+                    "skillsName": "SUSE 4",
+                    "skillsId": "643576000001760013"
+                },
+                {
+                    "skillsName": "SUSE 3",
+                    "skillsId": "643576000001760009"
+                },
+                {
+                    "skillsName": "SUSE 2",
+                    "skillsId": "643576000001760005"
+                },
+                {
+                    "skillsName": "SUSE 1",
+                    "skillsId": "643576000001760001"
+                },
+                {
+                    "skillsName": "Capacidad para Sobreponerse a Circunstancias Adversas",
+                    "skillsId": "643576000001305167"
+                },
+                {
+                    "skillsName": "Relacionamiento | Networking",
+                    "skillsId": "643576000001305161"
+                },
+                {
+                    "skillsName": "Conocimiento del Cliente, sus Necesidades y su Industria (Ventas)",
+                    "skillsId": "643576000001305155"
+                },
+                {
+                    "skillsName": "Trabajo en Equipo",
+                    "skillsId": "643576000001305131"
+                },
+                {
+                    "skillsName": "Orientación a Resultados",
+                    "skillsId": "643576000001305125"
+                },
+                {
+                    "skillsName": "Orientación al Cliente",
+                    "skillsId": "643576000001305119"
+                },
+                {
+                    "skillsName": "Empatía y Comunicación (Contribuidores Individuales)",
+                    "skillsId": "643576000001305113"
+                }
+            ]
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getOrgSkills",
+        "status": 0
+    }
+}
+

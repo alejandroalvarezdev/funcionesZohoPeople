@@ -1,0 +1,68 @@
+habilidadesABuscar = "Empatía y Comunicación (Contribuidores Individuales),SUSE 1,SUSE 3";
+url ="https://people.zoho.com/people/api/performance/skills/getusersbyskill";
+param_map = Map();
+param_map.put("skills",habilidadesABuscar);
+response = invokeurl
+[
+url :url
+type :GET
+parameters:param_map
+connection: "peoplecustomfunctionperformance"
+];
+info response ;
+
+{
+    "response": {
+        "result": {
+            "SUSE 3": [
+                {
+                    "erecno": "643576000000239122",
+                    "empName": "FELIPE BARRERA",
+                    "zuid": 749945145
+                },
+                {
+                    "erecno": "643576000000239194",
+                    "empName": "JESUS EDUARDO MORENO SANCHEZ",
+                    "zuid": 749945184
+                },
+                {
+                    "erecno": "643576000000859150",
+                    "empName": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "zuid": 762326270
+                }
+            ],
+            "SUSE 1": [
+                {
+                    "erecno": "643576000000203001",
+                    "empName": "hla.backofficeadmin Q&A",
+                    "zuid": 749364573
+                }
+            ],
+            "Empatía y Comunicación (Contribuidores Individuales)": [
+                {
+                    "erecno": "643576000000203001",
+                    "empName": "hla.backofficeadmin Q&A",
+                    "zuid": 749364573
+                },
+                {
+                    "erecno": "643576000000239122",
+                    "empName": "FELIPE BARRERA",
+                    "zuid": 749945145
+                },
+                {
+                    "erecno": "643576000000578213",
+                    "empName": "JUAN CARLOS JIMENEZ GONZALEZ",
+                    "zuid": 754698894
+                },
+                {
+                    "erecno": "643576000000859150",
+                    "empName": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "zuid": 762326270
+                }
+            ]
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getusersbyskill",
+        "status": 0
+    }
+}

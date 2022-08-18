@@ -1,12 +1,13 @@
 url ="https://people.zoho.com/people/api/performance/skills/getusersbyskill";
 param_map = Map();
-param_map.put("skills","Empatía y Comunicación (Contribuidores Individuales)");
+param_map.put("skills",
+"Empatía y Comunicación (Contribuidores Individuales)");
 response = invokeurl
 [
 url :url
 type :GET
 parameters:param_map
-connection:"peoplecustomfunctionperformance"
+connection: "peoplecustomfunctionperformance"
 ];
 info response ;
 
@@ -45,6 +46,136 @@ info response ;
                     "erecno": "643576000000859150",
                     "empName": "CARLOS MAURICIO CARRASCO BALANZA",
                     "zuid": 762326270
+                }
+            ]
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getusersbyskill",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "Conocimiento del Cliente": "No such skill",
+            "sus Necesidades y su Industria (Ventas)": "No such skill"
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getusersbyskill",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "Empatía y Comunicación (Contribuidores Individuales)": [
+                {
+                    "erecno": "643576000000203001",
+                    "empName": "hla.backofficeadmin Q&A",
+                    "zuid": 749364573
+                },
+                {
+                    "erecno": "643576000000239122",
+                    "empName": "FELIPE BARRERA",
+                    "zuid": 749945145
+                },
+                {
+                    "erecno": "643576000000578213",
+                    "empName": "JUAN CARLOS JIMENEZ GONZALEZ",
+                    "zuid": 754698894
+                },
+                {
+                    "erecno": "643576000000859150",
+                    "empName": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "zuid": 762326270
+                }
+            ]
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getusersbyskill",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "SUSE 2": [
+                {
+                    "erecno": "643576000000239194",
+                    "empName": "JESUS EDUARDO MORENO SANCHEZ",
+                    "zuid": 749945184
+                },
+                {
+                    "erecno": "643576000000859150",
+                    "empName": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "zuid": 762326270
+                }
+            ],
+            "Orientación al Cliente": [
+                {
+                    "erecno": "643576000000203001",
+                    "empName": "hla.backofficeadmin Q&A",
+                    "zuid": 749364573
+                },
+                {
+                    "erecno": "643576000000239194",
+                    "empName": "JESUS EDUARDO MORENO SANCHEZ",
+                    "zuid": 749945184
+                },
+                {
+                    "erecno": "643576000000859150",
+                    "empName": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "zuid": 762326270
+                },
+                {
+                    "erecno": "643576000001021001",
+                    "empName": " "
+                }
+            ]
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getusersbyskill",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "SUSE 2": [
+                {
+                    "erecno": "643576000000239194",
+                    "empName": "JESUS EDUARDO MORENO SANCHEZ",
+                    "zuid": 749945184
+                },
+                {
+                    "erecno": "643576000000859150",
+                    "empName": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "zuid": 762326270
+                }
+            ],
+            "Orientación al Cliente": [
+                {
+                    "erecno": "643576000000203001",
+                    "empName": "hla.backofficeadmin Q&A",
+                    "zuid": 749364573
+                },
+                {
+                    "erecno": "643576000000239194",
+                    "empName": "JESUS EDUARDO MORENO SANCHEZ",
+                    "zuid": 749945184
+                },
+                {
+                    "erecno": "643576000000859150",
+                    "empName": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "zuid": 762326270
+                },
+                {
+                    "erecno": "643576000001021001",
+                    "empName": " "
                 }
             ]
         },
