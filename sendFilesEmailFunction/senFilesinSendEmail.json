@@ -1,0 +1,23 @@
+getData = zoho.people.getRecordByID("employee",recordId);
+estudios = getData.get("tabularSections").get("Documentos adicionales (Fiscales, sociales, colegiales)");
+fileCollection = List();
+for each  fileEstudio in estudios
+{
+fileUrl = fileEstudio.get("Digitalizaci_n_downloadUrl");
+fileResp = invokeurl
+[
+	url :fileUrl
+	type :GET
+	connection:"peoplecustomfunction"
+];
+fileCollection.add(fileResp);
+}
+info fileCollection ;
+sendmail
+[
+from :zoho.loginuserid
+to :"david.ventura@beyondtechnology.net"
+subject :"File"
+message :"FileTest"
+Attachments :file:fileCollection
+]
