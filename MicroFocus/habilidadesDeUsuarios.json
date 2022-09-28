@@ -1,0 +1,827 @@
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 4,
+                    "skillSetId": "643576000001871179",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871623",
+                    "skillSetName": "Liderazgo de equipo",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 4,
+                    "skillSetId": "643576000001871209",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871639",
+                    "skillSetName": "Entrega de entrenamiento",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000859150",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 4,
+                    "skillSetId": "643576000001871173",
+                    "assignby.recordID": "643576000000859150",
+                    "assignby.ID": "Emp333",
+                    "skillSetScoreId": "643576000001906047",
+                    "skillSetName": "Estructuración de soluciones",
+                    "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1663087623767",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000859150",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 4,
+                    "skillSetId": "643576000001871185",
+                    "assignby.recordID": "643576000000859150",
+                    "assignby.ID": "Emp333",
+                    "skillSetScoreId": "643576000001906053",
+                    "skillSetName": "Tecnología - Arquitectura",
+                    "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1663087631209",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 4,
+                    "skillSetId": "643576000001871143",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871599",
+                    "skillSetName": "Gestión de la calidad",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 3,
+                    "skillSetId": "643576000001871203",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871635",
+                    "skillSetName": "Tecnología - Soporte",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000859150",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 3,
+                    "skillSetId": "643576000001871005",
+                    "assignby.recordID": "643576000000859150",
+                    "assignby.ID": "Emp333",
+                    "skillSetScoreId": "643576000001909025",
+                    "skillSetName": "Gestión operativa",
+                    "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillUpgradeReason": "Ya termine mi PDI",
+                    "skillSetDate": "1663190732734",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000859150",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 3,
+                    "skillSetId": "643576000001871191",
+                    "assignby.recordID": "643576000000859150",
+                    "assignby.ID": "Emp333",
+                    "skillSetScoreId": "643576000001906072",
+                    "skillSetName": "Tecnología - Diseño",
+                    "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1663088080753",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 3,
+                    "skillSetId": "643576000001871009",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871579",
+                    "skillSetName": "Liderazgo de personas",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000859150",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 3,
+                    "skillSetId": "643576000001871013",
+                    "assignby.recordID": "643576000000859150",
+                    "assignby.ID": "Emp333",
+                    "skillSetScoreId": "643576000001906148",
+                    "skillSetName": "ENTREGA DE PRESENTACIÓN",
+                    "givenByUser": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1663090189732",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 3,
+                    "skillSetId": "643576000001871137",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871595",
+                    "skillSetName": "Desarrollo de propuesta",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 3,
+                    "skillSetId": "643576000001871149",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871603",
+                    "skillSetName": "Planificación y despliegue de recursos",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 2,
+                    "skillSetId": "643576000001871131",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871591",
+                    "skillSetName": "GESTIÓN DE ALCANCE Y RIESGO",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 2,
+                    "skillSetId": "643576000001871155",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871607",
+                    "skillSetName": "Informes y documentación",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 2,
+                    "skillSetId": "643576000001871167",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871615",
+                    "skillSetName": "Desarrollo y prueba de software",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 1,
+                    "skillSetId": "643576000001871215",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871643",
+                    "skillSetName": "Diseño y desarrollo de formación",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 1,
+                    "skillSetId": "643576000001871001",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871571",
+                    "skillSetName": "Gestión y facilitación de reuniones",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 1,
+                    "skillSetId": "643576000001871311",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871587",
+                    "skillSetName": "PLANIFICACIÓN Y SEGUIMIENTO DE PROYECTOS2",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "643576000000203001",
+                    "skillSetWeightage": 0,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetScore": 1,
+                    "skillSetId": "643576000001871161",
+                    "assignby.recordID": "643576000000203001",
+                    "assignby.ID": "Emp001",
+                    "skillSetScoreId": "643576000001871611",
+                    "skillSetName": "Ejecución de ventas",
+                    "givenByUser": "hla.backofficeadmin Q&A",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1661810759511",
+                    "employee.recordID": "643576000000859150"
+                },
+                {
+                    "employee.ID": "Emp333",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871439",
+                    "skillSetWeightage": 5,
+                    "employee.name": "CARLOS MAURICIO CARRASCO BALANZA",
+                    "skillSetDescription": "",
+                    "skillSetName": "Tecnología - Documentación",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871197",
+                    "skillSetDate": "1661810505038",
+                    "employee.recordID": "643576000000859150"
+                }
+            ],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871363",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Gestión de la calidad",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871143",
+                    "skillSetDate": "1661810505015",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871371",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Planificación y despliegue de recursos",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871149",
+                    "skillSetDate": "1661810505018",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871379",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Informes y documentación",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871155",
+                    "skillSetDate": "1661810505020",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871387",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Ejecución de ventas",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871161",
+                    "skillSetDate": "1661810505024",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871395",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Desarrollo y prueba de software",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871167",
+                    "skillSetDate": "1661810505027",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871403",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Estructuración de soluciones",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871173",
+                    "skillSetDate": "1661810505029",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871411",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Liderazgo de equipo",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871179",
+                    "skillSetDate": "1661810505031",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "643576000000578315",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetScore": 0,
+                    "skillSetId": "643576000001871001",
+                    "assignby.recordID": "643576000000578315",
+                    "assignby.ID": "Emp356",
+                    "skillSetScoreId": "643576000001939001",
+                    "skillSetName": "Gestión y facilitación de reuniones",
+                    "givenByUser": "VERONICA NOVELA PRIETO",
+                    "skillUpgradeReason": "",
+                    "skillSetDate": "1664303421143",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871419",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Tecnología - Arquitectura",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871185",
+                    "skillSetDate": "1661810505034",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871427",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Tecnología - Diseño",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871191",
+                    "skillSetDate": "1661810505036",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871435",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Tecnología - Documentación",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871197",
+                    "skillSetDate": "1661810505038",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871443",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Tecnología - Soporte",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871203",
+                    "skillSetDate": "1661810505041",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871451",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Entrega de entrenamiento",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871209",
+                    "skillSetDate": "1661810505044",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871459",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Diseño y desarrollo de formación",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871215",
+                    "skillSetDate": "1661810505047",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871315",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Gestión operativa",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871005",
+                    "skillSetDate": "1661810505001",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871323",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Liderazgo de personas",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871009",
+                    "skillSetDate": "1661810505004",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871331",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "ENTREGA DE PRESENTACIÓN",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871013",
+                    "skillSetDate": "1661810505006",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871339",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "PLANIFICACIÓN Y SEGUIMIENTO DE PROYECTOS2",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871311",
+                    "skillSetDate": "1661810505008",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871347",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "GESTIÓN DE ALCANCE Y RIESGO",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871131",
+                    "skillSetDate": "1661810505011",
+                    "employee.recordID": "643576000000578315"
+                },
+                {
+                    "employee.ID": "Emp356",
+                    "owner": "null",
+                    "skillSetScoreId": "643576000001871355",
+                    "skillSetWeightage": 5,
+                    "employee.name": "VERONICA NOVELA PRIETO",
+                    "skillSetDescription": "",
+                    "skillSetName": "Desarrollo de propuesta",
+                    "skillSetScore": 0,
+                    "skillUpgradeReason": "",
+                    "skillSetId": "643576000001871137",
+                    "skillSetDate": "1661810505013",
+                    "employee.recordID": "643576000000578315"
+                }
+            ],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "code": "Deleted",
+    "message": "Deleted User"
+}
+
+{
+    "code": "Deleted",
+    "message": "Deleted User"
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}
+
+{
+    "response": {
+        "result": {
+            "skillsetList": [],
+            "permissions": true,
+            "errorFlag": false,
+            "errorCount": 0
+        },
+        "message": "Success",
+        "uri": "/api/performance/skills/getUserSkills",
+        "status": 0
+    }
+}

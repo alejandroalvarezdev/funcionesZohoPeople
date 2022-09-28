@@ -1,0 +1,295 @@
+false
+
+false
+
+false
+
+false
+
+false
+
+false
+
+false
+
+false
+
+true
+
+{
+    "EmailID": "omar.garcia@optimalatam-qa.com",
+    "Nominas": "",
+    "Address": "ANTONIO ARAUJO MZ:38 LT:27 COLONIA: SANTA MARTHA A SUR DELEGACIÓN: IZTAPALAPA CP:09510",
+    "Motivo": "",
+    "Gender": "Male",
+    "Marital_status": "SOLTERO/A",
+    "ModifiedBy": "Emp001 - hla.backofficeadmin - Q&A",
+    "ApprovalStatus": "Approval Not Enabled",
+    "Department": "SERVICIOS PROFESIONALES",
+    "Documento_de_Identidad": "GAGJ901010HDFRMR04",
+    "Bono_Comision.id": "643576000000354347",
+    "Razon_Social": "NOVELL DE MEXICO SA DE CV",
+    "Tags": "",
+    "Bono_Comision": "BONO",
+    "Job_Family_Sub_Group.ID": "643576000000218990",
+    "total_experience.displayValue": "8 year(s) 8 month(s)",
+    "Redireccionar_Correo": "",
+    "Employeestatus": "Finalización de Contrato",
+    "VP.ID": "",
+    "Rol_desde_candidato": "",
+    "Experience": "8",
+    "Evaluador_de_RRHH": "LELIANE VERUSKA VILLEGAS CRUZ",
+    "Accesos_a_sede_requeridos": "TORRE ALTIVA",
+    "Nacionalidad": "MEXICANA",
+    "Tipo_de_Documento_Identidad.ID": "643576000000215627",
+    "componentValueDisp": "No",
+    "Role.ID": "643576000000035635",
+    "Nacionalidad.ID": "643576000000215245",
+    "Grupo_Funcional": "GO TO MARKET",
+    "Dateofexit": "",
+    "Centro_de_Costo": "",
+    "Division1.id": "643576000000215969",
+    "Redireccionar_Correo.ID": "",
+    "Other_Email": "",
+    "LocationName": "SAO PAULO",
+    "Fecha_de_actualizacion": "",
+    "total_experience": "104",
+    "Sede": "TORRE ALTIVA",
+    "Reporting_To.MailID": "guillermo.veitia@optimalatam-qa.com",
+    "Zoho_ID": 643576000000578179,
+    "Evaluador_de_RRHH.ID": "643576000000239342",
+    "Division1": "MEXICO",
+    "Hora_de_Salida": "",
+    "Quien_Acepto": "",
+    "Designation": "CONSULTOR II",
+    "Age.displayValue": "31 year(s) 11 month(s)",
+    "FirstName": "JORGE OMAR",
+    "Dateofjoining": "01-07-2014",
+    "Empresas": "NOVELL DE MEXICO SA DE CV",
+    "SegEvaluador.ID": "",
+    "Activar_proceso_de_Offboarding": "",
+    "Experience.displayValue": "8 year(s) 8 month(s)",
+    "Mobile": "525562290359",
+    "ModifiedBy.ID": "643576000000203001",
+    "Evaluador_de_Potencial.ID": "643576000000239122",
+    "Acepta_Datos": "false",
+    "Corte_tarjeta": "",
+    "Reporting_To.ID": "643576000000578145",
+    "Work_phone": "",
+    "Region_a_la_que_presta_servicio.id": "643576000000216065",
+    "Expertise": "",
+    "CreatedTime": "1625505123495",
+    "Date_of_birth": "10-10-1990",
+    "AddedTime": "07-05-2021 12:12:03",
+    "Photo": "https://contacts.zoho.com/file?ID=754698893&fs=thumb",
+    "Region_a_la_que_presta_servicio": "MEXICO",
+    "LocationName.ID": "643576000000206157",
+    "Razon_Social.id": "643576000000340710",
+    "Job_Family_Sub_Group": "CONSULTORÍA",
+    "tabularSections": {
+        "Dependientes": [
+            {}
+        ],
+        "Estudios": [
+            {}
+        ],
+        "Documentos adicionales (Fiscales, sociales, colegiales)": [
+            {}
+        ],
+        "Tecnologías que atiende": [
+            {}
+        ],
+        "Experiencia laboral": [
+            {}
+        ]
+    },
+    "Ciudad_de_Residencia": "CIUDAD DE MEXICO",
+    "Mobile.country_code": "",
+    "AddedBy": "Emp001 - hla.backofficeadmin - Q&A",
+    "Reporting_To": "GUILLERMO ALEJANDRO VEITIA PERNALETE",
+    "Photo_downloadUrl": "https://contacts.zoho.com/file?ID=754698893&fs=thumb",
+    "SegEvaluador": "",
+    "Evaluador_de_Potencial": "FELIPE BARRERA",
+    "Role": "Team member",
+    "Tel_fono_contacto_emergencia": "525532086285",
+    "Employee_type": "",
+    "State": "",
+    "Notas_1": "<div><i><span class=\"font\" style=\"font-family: &quot;Arial&quot;, sans-serif\"><span class=\"size\" style=\"font-size: 12pt\">Novell y/o sus empresas filiales, subordinadas o demás sociedades que hacen parte de su grupo empresarial se obligan &nbsp;y compromete a proteger y a tratar de manera confidencial los datos personales que el Titular le proporcione. Asimismo, el Titular de los datos personales manifiesta expresamente que conoce y entiende el procedimiento específico para ejercer sus derechos por lo que acepta y autoriza el tratamiento de dichos datos, lo anterior en cumplimiento de las leyes de protección de datos.<\/span><\/span><\/i><\/div> ",
+    "AddedBy.ID": "643576000000203001",
+    "Observaciones": "",
+    "VP": "",
+    "LastName": "GARCIA GOMEZ",
+    "EmployeeID": "Emp339",
+    "ZUID": "754698893",
+    "Nominas.ID": "",
+    "Pincode": "",
+    "Tipo_de_Documento_Identidad": "CURP",
+    "Grupo_Funcional.id": "643576000000215853",
+    "Mentor": "LELIANE VERUSKA VILLEGAS CRUZ",
+    "Work_location": "",
+    "Nick_Name": "",
+    "Mentor.ID": "643576000000239342",
+    "ModifiedTime": "1633459546632",
+    "Telefono": "",
+    "WorkforceId": "00097864",
+    "Designation.ID": "643576000000216844",
+    "Age": "31",
+    "Tipo_de_Documento1": "<div><span class=\"highlight\" style=\"background-color: rgb(255, 255, 255)\"><span class=\"colour\" style=\"color: rgb(255, 0, 0)\"><span class=\"font\" style=\"font-family: LatoWeb\"><span class=\"size\" style=\"font-size: 14px\">* Es obligatorio definir el valor de &quot;Nacionalidad&quot; antes de incluir el Tipo de documento.<\/span><\/span><\/span><\/span><\/div> ",
+    "Cargo_Texto": "",
+    "E_mail_corporativo": "omar.garcia@microfocus.com",
+    "Empresas.ID": "643576000000219277",
+    "Grupo_sanguineo": "AB +ve",
+    "Documento_de_trabajo_extranjero": "",
+    "Marital_status.id": "643576000000218050",
+    "E_mail_alternativo": "",
+    "AboutMe": "",
+    "Extension": "",
+    "Emergencycontact": "GÓMEZ VERA NORMA",
+    "Department.ID": "643576000000219000"
+}
+
+true
+
+{
+    "EmailID": "guillermo.veitia@optimalatam-qa.com",
+    "Nominas": "",
+    "Address": "MAR CANTÁBRICO 20, INT 303, COLONIA POPOTLA, DELEGACIÓN MIGUEL HIDALGO, CIUDAD DE MÉXICO, CP 11400",
+    "Motivo": "",
+    "Gender": "Male",
+    "Marital_status": "SEPARADO/A",
+    "ModifiedBy": "Emp001 - hla.backofficeadmin - Q&A",
+    "ApprovalStatus": "Approval Not Enabled",
+    "Department": "SERVICIOS PROFESIONALES",
+    "Documento_de_Identidad": "VEPG880123HNETRL00",
+    "Bono_Comision.id": "643576000000354347",
+    "Razon_Social": "NOVELL DE MEXICO SA DE CV",
+    "Tags": "",
+    "Bono_Comision": "BONO",
+    "Job_Family_Sub_Group.ID": "643576000000218990",
+    "total_experience.displayValue": "5 year(s) 9 month(s)",
+    "Redireccionar_Correo": "",
+    "Employeestatus": "Finalización de Contrato",
+    "VP.ID": "",
+    "Rol_desde_candidato": "",
+    "Experience": "5",
+    "Evaluador_de_RRHH": "LELIANE VERUSKA VILLEGAS CRUZ",
+    "Accesos_a_sede_requeridos": "TORRE ALTIVA",
+    "Nacionalidad": "VENEZOLANA",
+    "Tipo_de_Documento_Identidad.ID": "643576000000215627",
+    "componentValueDisp": "No",
+    "Role.ID": "643576000000035639",
+    "Nacionalidad.ID": "643576000000215257",
+    "Grupo_Funcional": "GO TO MARKET",
+    "Dateofexit": "",
+    "Centro_de_Costo": "",
+    "Division1.id": "643576000000215969",
+    "Redireccionar_Correo.ID": "",
+    "Other_Email": "",
+    "LocationName": "CIUDAD DE MEXICO",
+    "Fecha_de_actualizacion": "",
+    "total_experience": "69",
+    "Sede": "TORRE ALTIVA",
+    "Reporting_To.MailID": "gaston.pernalete@optimalatam-qa.com",
+    "Zoho_ID": 643576000000578145,
+    "Evaluador_de_RRHH.ID": "643576000000239342",
+    "Division1": "MEXICO",
+    "Hora_de_Salida": "",
+    "Quien_Acepto": "",
+    "Designation": "GERENTE DE CONSULTORIA",
+    "Age.displayValue": "34 year(s) 8 month(s)",
+    "FirstName": "GUILLERMO ALEJANDRO",
+    "Dateofjoining": "12-14-2016",
+    "Empresas": "NOVELL DE MEXICO SA DE CV",
+    "SegEvaluador.ID": "",
+    "Activar_proceso_de_Offboarding": "",
+    "Experience.displayValue": "5 year(s) 9 month(s)",
+    "Mobile": "525547942663",
+    "ModifiedBy.ID": "643576000000203001",
+    "Evaluador_de_Potencial.ID": "643576000000239122",
+    "Acepta_Datos": "false",
+    "Corte_tarjeta": "",
+    "Reporting_To.ID": "643576000000239086",
+    "Work_phone": "",
+    "Region_a_la_que_presta_servicio.id": "643576000000216065",
+    "Expertise": "",
+    "CreatedTime": "1625505119598",
+    "Date_of_birth": "01-23-1988",
+    "AddedTime": "07-05-2021 12:11:59",
+    "Photo": "https://contacts.zoho.com/file?ID=754700836&fs=thumb",
+    "Region_a_la_que_presta_servicio": "MEXICO",
+    "LocationName.ID": "643576000000206085",
+    "Razon_Social.id": "643576000000340710",
+    "Job_Family_Sub_Group": "CONSULTORÍA",
+    "tabularSections": {
+        "Dependientes": [
+            {}
+        ],
+        "Estudios": [
+            {}
+        ],
+        "Documentos adicionales (Fiscales, sociales, colegiales)": [
+            {}
+        ],
+        "Tecnologías que atiende": [
+            {}
+        ],
+        "Experiencia laboral": [
+            {}
+        ]
+    },
+    "Ciudad_de_Residencia": "CIUDAD DE MEXICO",
+    "Mobile.country_code": "",
+    "AddedBy": "Emp001 - hla.backofficeadmin - Q&A",
+    "Reporting_To": "GASTON ADOLFO PERNALETE ARAUJO",
+    "Photo_downloadUrl": "https://contacts.zoho.com/file?ID=754700836&fs=thumb",
+    "SegEvaluador": "",
+    "Evaluador_de_Potencial": "FELIPE BARRERA",
+    "Role": "Manager",
+    "Tel_fono_contacto_emergencia": "525545679637",
+    "Employee_type": "",
+    "State": "",
+    "Notas_1": "<div><i><span class=\"font\" style=\"font-family: &quot;Arial&quot;, sans-serif\"><span class=\"size\" style=\"font-size: 12pt\">Novell y/o sus empresas filiales, subordinadas o demás sociedades que hacen parte de su grupo empresarial se obligan &nbsp;y compromete a proteger y a tratar de manera confidencial los datos personales que el Titular le proporcione. Asimismo, el Titular de los datos personales manifiesta expresamente que conoce y entiende el procedimiento específico para ejercer sus derechos por lo que acepta y autoriza el tratamiento de dichos datos, lo anterior en cumplimiento de las leyes de protección de datos.<\/span><\/span><\/i><\/div> ",
+    "AddedBy.ID": "643576000000203001",
+    "Observaciones": "",
+    "VP": "",
+    "LastName": "VEITIA PERNALETE",
+    "EmployeeID": "Emp295",
+    "ZUID": "754700836",
+    "Nominas.ID": "",
+    "Pincode": "",
+    "Tipo_de_Documento_Identidad": "CURP",
+    "Grupo_Funcional.id": "643576000000215853",
+    "Mentor": "LELIANE VERUSKA VILLEGAS CRUZ",
+    "Work_location": "",
+    "Nick_Name": "",
+    "Mentor.ID": "643576000000239342",
+    "ModifiedTime": "1633459570728",
+    "Telefono": "",
+    "WorkforceId": "00095690",
+    "Designation.ID": "643576000000217204",
+    "Age": "34",
+    "Tipo_de_Documento1": "<div><span class=\"highlight\" style=\"background-color: rgb(255, 255, 255)\"><span class=\"colour\" style=\"color: rgb(255, 0, 0)\"><span class=\"font\" style=\"font-family: LatoWeb\"><span class=\"size\" style=\"font-size: 14px\">* Es obligatorio definir el valor de &quot;Nacionalidad&quot; antes de incluir el Tipo de documento.<\/span><\/span><\/span><\/span><\/div> ",
+    "Cargo_Texto": "",
+    "E_mail_corporativo": "guillermo.veitia@microfocus.com",
+    "Empresas.ID": "643576000000219277",
+    "Grupo_sanguineo": "AB +ve",
+    "Documento_de_trabajo_extranjero": "",
+    "Marital_status.id": "643576000000218040",
+    "E_mail_alternativo": "",
+    "AboutMe": "",
+    "Extension": "",
+    "Emergencycontact": "SPINOLA CAROLINA",
+    "Department.ID": "643576000000219000"
+}
+
+false
+
+false
+
+false
+
+false
+
+false
+
+false
