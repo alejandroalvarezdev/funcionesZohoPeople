@@ -1,55 +1,53 @@
-url1 = "https://people.zoho.com/people/api/performance/skills/getOrgSkills";
-response = invokeurl
-[
-url :url1
-type :GET
-connection:"peoplecustomfunctionperformance"
-];
-habilidaddes = response.get("response").get("result").get("skills");
-for each  habilidad in habilidaddes
+
+contador = 0;
+iterador = {0,1,2,3,4,5,6,7,8,9};
+for each  i in iterador
 {
-skill = habilidad.get("skillsName");
-url2 = "https://people.zoho.com/people/api/performance/skills/getusersbyskill";
-param_map = Map();
-param_map.put("skills",skill);
-response2 = invokeurl
-[
-	url :url2
-	type :GET
-	parameters:param_map
-	connection:"peoplecustomfunctionperformance"
-];
-usuariosDeEsaHabilidad = response2.get("response").get("result").get(skill);
-if(usuariosDeEsaHabilidad != "No such skill")
+fromIndex = i * 200;
+empleados = zoho.people.getRecords("employee",fromIndex,200);
+for each  empleado in empleados
 {
-	info usuariosDeEsaHabilidad ;
-// 	for each  usuarioHabilidad in usuariosDeEsaHabilidad
-// 	{
-// 		userErecno = usuarioHabilidad.get("erecno");
-// 		url3 = "https://people.zoho.com/people/api/performance/skills/getUserSkills";
-// 		param_map = Map();
-// 		param_map.put("userErecNo",userErecno);
-// 		response3 = invokeurl
-// 		[
-// 			url :url3
-// 			type :GET
-// 			parameters:param_map
-// 			connection:"peoplecustomfunctionperformance"
-// 		];
-// 		info response3;
-// 	}
+	if(empleado.get("message") != "No records found")
+	{
+		userErecno = empleado.get("Zoho_ID");
+		url = "https://people.zoho.com/people/api/performance/skills/getUserSkills";
+		param_map = Map();
+		param_map.put("userErecNo",userErecno);
+		response = invokeurl
+		[
+			url :url
+			type :GET
+			parameters:param_map
+			connection:"peoplecustomfunctionperformance"
+		];
+		lista = response.toList();
+		for each  habilidades in lista
+		{
+			if(habilidades.get("code") != "Deleted")
+			{
+				usuariosConHabilidades = habilidades.get("response").get("result").get("skillsetList");
+				if(usuariosConHabilidades != {})
+				{
+					for each  habilidad in usuariosConHabilidades
+					{
+						nombre = habilidad.get("employee.recordID");
+						skill = habilidad.get("skillSetName");
+						peso = habilidad.get("skillSetWeightage");
+						nivel = habilidad.get("skillSetScore");
+						skillSetId = habilidad.get("skillSetId");
+						param_map2 = Map();
+						param_map2.put("Empleado",nombre);
+						param_map2.put("Peso",peso);
+						param_map2.put("Nivel",nivel);
+						param_map2.put("Habilidad",skill);
+						param_map2.put("SkillSetId",skillSetId);
+						// 										createResponse = zoho.people.create("Habilidades",param_map2);
+						// 										info createResponse;
+						info param_map2;
+					}
+				}
+			}
+		}
+	}
 }
 }
-// contador = 0;
-// iterador = {0,1,2,3,4,5,6,7,8,9};
-// for each  i in iterador
-// {
-// fromIndex = i * 200;
-// capacitaciones = zoho.people.getRecords("Capacitacion",fromIndex,200);
-// for each  capacitacion in capacitaciones
-// {
-// 	if(capacitacion.get("message") != "No records found")
-// 	{
-// 	}
-// }
-// }
