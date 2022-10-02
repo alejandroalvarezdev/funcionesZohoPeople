@@ -1,4 +1,24 @@
-
+contador2 = 0;
+iterador2 = {0,1,2,3,4,5,6,7,8,9};
+for each  j in iterador2
+{
+fromIndex2 = j * 200;
+registrosHabilidades = zoho.people.getRecords("Habilidades",fromIndex2,200);
+for each  registroHabilidad in registrosHabilidades
+{
+	if(registroHabilidad.get("message") != "No records found")
+	{
+		zohoId = registroHabilidad.get("Zoho_ID");
+		response = invokeurl
+		[
+			url :"https://people.zoho.com/people/api/deleteRecords?recordIds=" + zohoId + "&formLinkName=Habilidades"
+			type :POST
+			connection:"peoplecustomfunction"
+		];
+		info response;
+	}
+}
+}
 contador = 0;
 iterador = {0,1,2,3,4,5,6,7,8,9};
 for each  i in iterador
@@ -25,6 +45,7 @@ for each  empleado in empleados
 		{
 			if(habilidades.get("code") != "Deleted")
 			{
+				info habilidades;
 				usuariosConHabilidades = habilidades.get("response").get("result").get("skillsetList");
 				if(usuariosConHabilidades != {})
 				{
@@ -41,9 +62,9 @@ for each  empleado in empleados
 						param_map2.put("Nivel",nivel);
 						param_map2.put("Habilidad",skill);
 						param_map2.put("SkillSetId",skillSetId);
-						// 										createResponse = zoho.people.create("Habilidades",param_map2);
-						// 										info createResponse;
-						info param_map2;
+						createResponse = zoho.people.create("Habilidades",param_map2);
+						info createResponse;
+						// 						info param_map2;
 					}
 				}
 			}
