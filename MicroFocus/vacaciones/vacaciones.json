@@ -1,0 +1,89 @@
+{
+    "Archivo_downloadUrl": "",
+    "Employee_ID": "hla.backofficeadmin Q&A",
+    "DayDetails": {
+        "11-07-2022": {
+            "LeaveCount": "1.0"
+        },
+        "11-11-2022": {
+            "LeaveCount": "1.0"
+        },
+        "11-10-2022": {
+            "LeaveCount": "1.0"
+        },
+        "11-09-2022": {
+            "LeaveCount": "1.0"
+        },
+        "11-08-2022": {
+            "LeaveCount": "1.0"
+        }
+    },
+    "Leavetype.ID": "643576000000340001",
+    "From": "11-07-2022",
+    "Unit": "Day",
+    "Archivo": "",
+    "ApprovalStatus": "Approved",
+    "Daystaken": "5.0",
+    "Reasonforleave": "",
+    "Leavetype": "Vacaciones en México",
+    "ApprovalTime": "10-10-2022 12:20:37",
+    "To": "11-11-2022",
+    "Original": "",
+    "Employee_ID.ID": "643576000000203001",
+    "DateOfRequest": "10-10-2022"
+}
+
+
+{
+    "employeeName": "hla.backofficeadmin Q&A",
+    "leavetypes": [
+        {
+            "unit": "Day",
+            "taken": 6,
+            "leavetypeName": "A Policy",
+            "available": 17,
+            "type": "PAID",
+            "leavetypeColor": "#64d5fd",
+            "leavetypeID": 643576000001982053
+        },
+        {
+            "unit": "Day",
+            "taken": 7,
+            "leavetypeName": "AB Policy",
+            "available": 29,
+            "type": "PAID",
+            "leavetypeColor": "#64d5fd",
+            "leavetypeID": 643576000001982101
+        },
+        {
+            "unit": "Hour",
+            "taken": -0.0,
+            "leavetypeName": "Dias pagos",
+            "available": 0,
+            "type": "PAID",
+            "leavetypeColor": "#64d5fd",
+            "leavetypeID": 643576000001579001
+        },
+        {
+            "unit": "Day",
+            "code": "VMX",
+            "taken": 5,
+            "leavetypeName": "Vacaciones en México",
+            "available": 39,
+            "type": "PAID",
+            "leavetypeColor": "#64d5fd",
+            "leavetypeID": 643576000000340001
+        },
+        {
+            "unit": "Day",
+            "code": "VVE",
+            "taken": -0.0,
+            "leavetypeName": "Vacaciones Venezuela",
+            "available": 94,
+            "type": "PAID",
+            "leavetypeColor": "#64d5fd",
+            "leavetypeID": 643576000000462017
+        }
+    ],
+    "employeeId": "Emp001"
+}

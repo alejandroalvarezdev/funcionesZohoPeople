@@ -1,0 +1,69 @@
+
+recordByID = zoho.people.getRecordByID("Formulario_de_ingreso_90_dias",recordId);
+idEmpleado = recordByID.get("AddedBy.ID");
+url = "https://people.zoho.com/people/api/performance/skills/getUserSkills";
+param_map = Map();
+param_map.put("userErecNo",idEmpleado);
+response = invokeurl
+[
+url :url
+type :GET
+parameters:param_map
+connection:"peoplecustomfunctionperformance"
+];
+competencias = response.get("response").get("result").get("skillsetList");
+////////////////ADD///////////////////
+param_map3 = Collection();
+add_col = Collection();
+for each  detallesCompetencia in competencias
+{
+competencia = detallesCompetencia.get("skillSetName");
+add_col.insert("Competencia":competencia);
+nivel = detallesCompetencia.get("skillSetScore");
+add_col.insert("Nivel":nivel);
+peso = detallesCompetencia.get("skillSetWeightage");
+add_col.insert("Peso":peso);
+param_map3.insert(add_col.toString());
+}
+//////////////////////////////////////
+/////////////DELETE///////////////////
+url = "https://people.zoho.com/api/forms/Formulario_de_ingreso_90_dias/getRecordByID?recordId=" + recordId;
+response2 = invokeurl
+[
+url :url
+type :GET
+connection:"peoplecustomfunction"
+];
+rows = response2.get("response").get("result").get(0);
+registros = rows.get("tabularSections").get("Competencias");
+idsList = Collection();
+for each  idRows in registros
+{
+id = idRows.get("tabular.ROWID");
+idsList.insert(id);
+}
+flag = idsList.toString();
+// //////////////////////////////////////
+// ////////////TABULAR DATA FORMAT///////
+if(flag == "null")
+{
+tabularData = {"643576000001827041":{"add":param_map3.toList()}};
+}
+else
+{
+tabularData = {"643576000001827041":{"add":param_map3.toList(),"delete":idsList}};
+}
+info tabularData;
+//////////////////////////////////////
+///////////UPDATE TABULAR/////////////
+newcol = Collection();
+newcol.insert("recordId":recordId);
+newcol.insert("tabularData":tabularData);
+response3 = invokeurl
+[
+url :"https://people.zoho.com/api/forms/json/Formulario_de_ingreso_90_dias/updateRecord"
+type :POST
+parameters:newcol.toMap()
+connection:"peoplecustomfunction"
+];
+info response3;

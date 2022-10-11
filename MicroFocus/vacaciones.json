@@ -1,0 +1,66 @@
+{
+    "employeeName": "hla.backofficeadmin Q&A",
+    "leavetypes": [
+        {
+            "unit": "Hour",
+            "taken": -0.0,
+            "leavetypeName": "Dias pagos",
+            "available": 0,
+            "type": "PAID",
+            "leavetypeColor": "#64d5fd",
+            "leavetypeID": 643576000001579001
+        },
+        {
+            "unit": "Day",
+            "code": "VMX",
+            "taken": 4,
+            "leavetypeName": "Vacaciones en México",
+            "available": 39,
+            "type": "PAID",
+            "leavetypeColor": "#64d5fd",
+            "leavetypeID": 643576000000340001
+        },
+        {
+            "unit": "Day",
+            "code": "VVE",
+            "taken": 8,
+            "leavetypeName": "Vacaciones Venezuela",
+            "available": 94,
+            "type": "PAID",
+            "leavetypeColor": "#64d5fd",
+            "leavetypeID": 643576000000462017
+        }
+    ],
+    "employeeId": "Emp001"
+}
+
+{
+    "Archivo_downloadUrl": "",
+    "Employee_ID": "hla.backofficeadmin Q&A",
+    "DayDetails": {
+        "10-12-2022": {
+            "LeaveCount": "1.0"
+        },
+        "10-11-2022": {
+            "LeaveCount": "1.0"
+        },
+        "10-13-2022": {
+            "LeaveCount": "1.0"
+        },
+        "10-10-2022": {
+            "LeaveCount": "1.0"
+        }
+    },
+    "Leavetype.ID": "643576000000340001",
+    "From": "10-10-2022",
+    "Unit": "Day",
+    "Archivo": "",
+    "ApprovalStatus": "Pending",
+    "Daystaken": "4.0",
+    "Reasonforleave": "",
+    "Leavetype": "Vacaciones en México",
+    "To": "10-13-2022",
+    "Original": "",
+    "Employee_ID.ID": "643576000000203001",
+    "DateOfRequest": "10-07-2022"
+}
