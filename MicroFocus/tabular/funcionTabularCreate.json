@@ -1,0 +1,20 @@
+data = zoho.people.getRecordByID("NuevoPersonal",recordId);
+empleado = data.get("Seleccionado.ID");
+tabular = data.get("tabularSections");
+if(!tabular == null)
+{
+objetivos90Dias = tabular.get("Objetivos 90 días");
+objetivos = List();
+fechas = List();
+for each  objetivo in objetivos90Dias
+{
+	objetivos.add(objetivo.get("Objetivo"));
+	fechas.add(objetivo.get("Fecha"));
+}
+}
+paramMap = Map();
+paramMap.put("Empleado",empleado);
+paramMap.put("Objetivo",objetivos);
+paramMap.put("Fecha",fechas);
+response = zoho.people.create("Formulario_de_ingreso_90_dias",paramMap);
+info response;

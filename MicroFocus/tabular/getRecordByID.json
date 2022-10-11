@@ -1,0 +1,94 @@
+{
+    "response": {
+        "result": [
+            {
+                "Laboral": {
+                    "Job_Family_Sub_Group.ID": "643576000000219110",
+                    "Catalogo_de_cargos": "ADMINISTRACIÓN Y FINANZAS",
+                    "Region.id": "643576000001216551",
+                    "Tipo_Cargo": "NO GO TO MARKET",
+                    "Catalogo_de_cargos.ID": "643576000000216704",
+                    "Ubicacion": "BUENOS AIRES",
+                    "Department": "FINANZAS",
+                    "Job_Family_Sub_Group": "FINANZAS",
+                    "Region": "SUR",
+                    "Department.ID": "643576000000219110",
+                    "Pais.id": "643576000001216529",
+                    "Pais": "ARGENTINA",
+                    "Ubicacion.ID": "643576000000206065"
+                },
+                "Registro": {
+                    "ModifiedBy.ID": "643576000000203001",
+                    "ModifiedTime": "10-11-2022 11:20:37",
+                    "AddedBy.ID": "643576000001432579",
+                    "AddedTime": "03-29-2022 14:24:21",
+                    "ModifiedBy": "hla.backofficeadmin Q&A Emp001",
+                    "AddedBy": "ANNA BRIK Emp103",
+                    "Expertise": ""
+                },
+                "tabularSections": {
+                    "Objetivos 90 días": [
+                        {
+                            "Fecha": "10-11-2022",
+                            "Objetivo": "Objetivo1",
+                            "tabular.ROWID": "643576000002019109"
+                        },
+                        {
+                            "Fecha": "10-12-2022",
+                            "Objetivo": "Objetivo2",
+                            "tabular.ROWID": "643576000002019111"
+                        },
+                        {
+                            "Fecha": "10-13-2022",
+                            "Objetivo": "Objetivo3",
+                            "tabular.ROWID": "643576000002019113"
+                        }
+                    ],
+                    "Conocimientos": [
+                        {
+                            "Comentarios1": "",
+                            "Area": "DIRECTORIOS",
+                            "Area.id": "643576000001216559",
+                            "Detalle": "algo",
+                            "Nivel1": "Medio",
+                            "Nivel1.id": "643576000001216585",
+                            "tabular.ROWID": "643576000001443221"
+                        }
+                    ]
+                },
+                "Info Básica": {
+                    "Hiring_Team": "El nuevo\n29/3/22",
+                    "Employee_type": "Indefinido",
+                    "Reemplazar": "",
+                    "Maximo": "234567.00",
+                    "Employee_type.id": "643576000001216513",
+                    "Reclutamiento_Sugerida": "",
+                    "Minimo": "123456.00",
+                    "Motivos_de_Contratacion": "Cargo Nuevo",
+                    "Minimo.displayValue": "123,456.00",
+                    "Motivos_de_Contratacion.id": "643576000001216525",
+                    "Maximo.displayValue": "234,567.00",
+                    "Comentar": "Algo"
+                },
+                "General": {
+                    "Responsable_RRHH.ID": "643576000000239342",
+                    "Empresas.ID": "643576000000219283",
+                    "Responsable_RRHH": "LELIANE VERUSKA VILLEGAS CRUZ",
+                    "Empresas": "NOVELL DE ARGENTINA S.A.",
+                    "PER": "PER40",
+                    "Solicitante.ID": "643576000001432579",
+                    "Solicitante": "ANNA BRIK"
+                },
+                "ApprovalStatus": "Pending",
+                "90 Dias": {
+                    "Seleccionado": "hla.backofficeadmin Q&A",
+                    "Seleccionado.ID": "643576000000203001"
+                }
+            }
+        ],
+        "message": "Data fetched successfully",
+        "uri": "/api/forms/NuevoPersonal/getRecordByID",
+        "status": 0
+    }
+}
+

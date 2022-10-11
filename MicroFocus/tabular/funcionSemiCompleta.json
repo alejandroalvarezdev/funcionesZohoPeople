@@ -1,0 +1,48 @@
+// url = "https://people.zoho.com/api/forms/Formulario_de_ingreso_90_dias/components";
+// response = invokeUrl [
+// 	url: url
+// 	type: GET
+// 	connection: "peoplecustomfunction"
+// ];
+// info response ;
+// Tabular id = 643576000001840009
+url = "https://people.zoho.com/api/forms/NuevoPersonal/getRecordByID?recordId=" + recordId;
+response = invokeurl
+[
+url :url
+type :GET
+connection:"peoplecustomfunction"
+];
+objetivos = response.get("response").get("result").get(0).get("tabularSections").get("Objetivos 90 días").toList();
+empleado = response.get("response").get("result").get(0).get("90 Dias").get("Seleccionado.ID");
+////////////////ADD///////////////////
+param_map = Collection();
+add_col = Collection();
+for each  objetivo in objetivos
+{
+objetivoTabular = objetivo.get("Objetivo");
+add_col.insert("Objetivo":objetivoTabular);
+fecha = objetivo.get("Fecha");
+add_col.insert("Fecha":fecha);
+param_map.insert(add_col.toString());
+}
+///////////////////////////////////////
+// ////////////TABULAR DATA FORMAT/////
+tabularData = {"643576000001840009":{"add":param_map.toList()}};
+//////////////////////////////////////
+///////////////CREATE RECORD//////////
+urlCreate = "https://people.zoho.com/people/api/forms/json/Formulario_de_ingreso_90_dias/insertRecord";
+empleadoMap = Map();
+empleadoMap.put("Empleado",empleado);
+param_mapCreate = Map();
+param_mapCreate.put("inputData",empleadoMap);
+param_mapCreate.put("tabularData",tabularData);
+info param_mapCreate;
+responseCreate = invokeurl
+[
+url :urlCreate
+type :POST
+parameters:param_mapCreate
+connection:"peoplecustomfunction"
+];
+info responseCreate;

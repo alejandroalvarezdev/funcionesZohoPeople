@@ -1,0 +1,463 @@
+url = "https://people.zoho.com/api/forms/Formulario_de_ingreso_90_dias/components";
+response = invokeUrl [
+	url: url
+	type: GET
+	connection: "peoplecustomfunction"
+];
+info response ;
+
+{
+  "response": {
+    "result": [
+      {
+        "comptype": "Lookup",
+        "Options": {
+          "Option4": {
+            "Value": " Emp363 - JOSE LUIS - MARTINEZ",
+            "Id": "643576000000239158"
+          },
+          "Option3": {
+            "Value": " Emp182 - FELIPE - BARRERA",
+            "Id": "643576000000239122"
+          },
+          "Option2": {
+            "Value": " Emp283 - GASTON ADOLFO - PERNALETE ARAUJO",
+            "Id": "643576000000239086"
+          },
+          "Option1": {
+            "Value": " Emp001 - hla.backofficeadmin - Q&A",
+            "Id": "643576000000203001"
+          },
+          "Option10": {
+            "Value": " Emp315 - JORGE - SUSUNAGA SALAZAR",
+            "Id": "643576000000651775"
+          },
+          "Option11": {
+            "Value": " Emp333 - CARLOS MAURICIO - CARRASCO BALANZA",
+            "Id": "643576000000859150"
+          },
+          "Option12": {
+            "Value": " Emp103 - ANNA - BRIK",
+            "Id": "643576000001432579"
+          },
+          "Option13": {
+            "Value": " Emp237 - SONIA - VARGAS",
+            "Id": "643576000001432615"
+          },
+          "Option9": {
+            "Value": " Emp356 - VERONICA - NOVELA PRIETO",
+            "Id": "643576000000578315"
+          },
+          "Option8": {
+            "Value": " Emp319 - JUAN CARLOS - TORRES PEREZ",
+            "Id": "643576000000578247"
+          },
+          "Option14": {
+            "Value": " EMP44 - Aldejandra - Serrato",
+            "Id": "643576000001913044"
+          },
+          "Option7": {
+            "Value": " Emp317 - JUAN CARLOS - JIMENEZ GONZALEZ",
+            "Id": "643576000000578213"
+          },
+          "Option6": {
+            "Value": " Emp357 - LELIANE VERUSKA - VILLEGAS CRUZ",
+            "Id": "643576000000239342"
+          },
+          "Option5": {
+            "Value": " Emp308 - JESUS EDUARDO - MORENO SANCHEZ",
+            "Id": "643576000000239194"
+          }
+        },
+        "description": "",
+        "labelname": "Empleado",
+        "ismandatory": false,
+        "displayType": "Pick_List",
+        "ReferedFormId": 643576000000035679,
+        "isPrimary": true,
+        "displayname": "Empleado",
+        "autofillvalue": "",
+        "formcomponentid": 643576000002019001,
+        "ReferedFormName": "P_Employee",
+        "ReferedFieldId": 643576000000036253,
+        "ReferedFieldName": "EmployeeID"
+      },
+      {
+        "comptype": "Text",
+        "ismandatory": false,
+        "displayname": "Nombre del Objetivo",
+        "autofillvalue": "",
+        "description": "",
+        "formcomponentid": 643576000001826353,
+        "labelname": "GoalName",
+        "maxLength": 100
+      },
+      {
+        "comptype": "Decimal",
+        "ismandatory": false,
+        "displayname": "Peso",
+        "autofillvalue": "",
+        "description": "",
+        "decimalLength": 2,
+        "formcomponentid": 643576000001826355,
+        "labelname": "GWeightage",
+        "maxLength": 19
+      },
+      {
+        "comptype": "Date",
+        "ismandatory": false,
+        "displayname": "Start Date",
+        "autofillvalue": "10-11-2022",
+        "description": "",
+        "formcomponentid": 643576000001826357,
+        "labelname": "StartDate"
+      },
+      {
+        "comptype": "Number",
+        "ismandatory": false,
+        "minimumValue": "0",
+        "displayname": "Cumplimiento",
+        "autofillvalue": "",
+        "description": "",
+        "formcomponentid": 643576000001826359,
+        "labelname": "Progress",
+        "maximumValue": "100",
+        "maxLength": 19
+      },
+      {
+        "comptype": "Checkbox",
+        "ismandatory": false,
+        "displayname": "Is Archived",
+        "autofillvalue": "false",
+        "description": "",
+        "formcomponentid": 643576000001826361,
+        "labelname": "IsArchived"
+      },
+      {
+        "comptype": "Text_Area",
+        "ismandatory": false,
+        "displayname": "Descripción",
+        "autofillvalue": "",
+        "description": "",
+        "formcomponentid": 643576000001826363,
+        "labelname": "Description"
+      },
+      {
+        "comptype": "Text_Area",
+        "ismandatory": false,
+        "displayname": "Criterio de Medición",
+        "autofillvalue": "",
+        "description": "",
+        "formcomponentid": 643576000001826365,
+        "labelname": "Criterio_de_Medicion"
+      },
+      {
+        "comptype": "Date",
+        "ismandatory": false,
+        "displayname": "Due Date",
+        "autofillvalue": "",
+        "description": "",
+        "formcomponentid": 643576000001826367,
+        "labelname": "DueDate"
+      },
+      {
+        "comptype": "Formula",
+        "ismandatory": false,
+        "displayname": "Logro",
+        "autofillvalue": "",
+        "description": "",
+        "formcomponentid": 643576000001826369,
+        "labelname": "Avanceponderado"
+      },
+      {
+        "comptype": "Checkbox",
+        "ismandatory": false,
+        "displayname": "Objetivos validados",
+        "autofillvalue": "false",
+        "description": "",
+        "formcomponentid": 643576000001826371,
+        "labelname": "Objetivos_validados"
+      },
+      {
+        "comptype": "Datetime",
+        "ismandatory": false,
+        "displayname": "Added time",
+        "autofillvalue": "",
+        "description": "",
+        "formcomponentid": 643576000001826373,
+        "labelname": "AddedTime"
+      },
+      {
+        "comptype": "Lookup",
+        "Options": {
+          "Option4": {
+            "Value": " JOSE LUIS MARTINEZ ",
+            "Id": "643576000000239158"
+          },
+          "Option3": {
+            "Value": " FELIPE BARRERA ",
+            "Id": "643576000000239122"
+          },
+          "Option2": {
+            "Value": " GASTON ADOLFO PERNALETE ARAUJO ",
+            "Id": "643576000000239086"
+          },
+          "Option1": {
+            "Value": " hla.backofficeadmin Q&A ",
+            "Id": "643576000000203001"
+          },
+          "Option10": {
+            "Value": " JORGE SUSUNAGA SALAZAR ",
+            "Id": "643576000000651775"
+          },
+          "Option11": {
+            "Value": " CARLOS MAURICIO CARRASCO BALANZA ",
+            "Id": "643576000000859150"
+          },
+          "Option12": { "Value": " ANNA BRIK ", "Id": "643576000001432579" },
+          "Option13": { "Value": " SONIA VARGAS ", "Id": "643576000001432615" },
+          "Option9": {
+            "Value": " VERONICA NOVELA PRIETO ",
+            "Id": "643576000000578315"
+          },
+          "Option8": {
+            "Value": " JUAN CARLOS TORRES PEREZ ",
+            "Id": "643576000000578247"
+          },
+          "Option14": {
+            "Value": " Aldejandra Serrato ",
+            "Id": "643576000001913044"
+          },
+          "Option7": {
+            "Value": " JUAN CARLOS JIMENEZ GONZALEZ ",
+            "Id": "643576000000578213"
+          },
+          "Option6": {
+            "Value": " LELIANE VERUSKA VILLEGAS CRUZ ",
+            "Id": "643576000000239342"
+          },
+          "Option5": {
+            "Value": " JESUS EDUARDO MORENO SANCHEZ ",
+            "Id": "643576000000239194"
+          }
+        },
+        "description": "",
+        "labelname": "AddedBy",
+        "ismandatory": false,
+        "displayType": "Pick_List",
+        "ReferedFormId": 643576000000035679,
+        "isPrimary": false,
+        "displayname": "Added By",
+        "autofillvalue": "",
+        "formcomponentid": 643576000001826375,
+        "ReferedFormName": "P_Employee",
+        "ReferedFieldId": 643576000000036253,
+        "ReferedFieldName": "EmployeeID"
+      },
+      {
+        "comptype": "Lookup",
+        "Options": {
+          "Option4": {
+            "Value": " Levantamiento de incidencias",
+            "Id": "643576000000697003"
+          },
+          "Option3": { "Value": " Monitoreo", "Id": "643576000000618215" },
+          "Option2": { "Value": " Monitoreo", "Id": "643576000000611711" },
+          "Option1": { "Value": " Monitoreo", "Id": "643576000000611693" },
+          "Option7": {
+            "Value": " Creación de imagen del programa",
+            "Id": "643576000000899013"
+          },
+          "Option6": { "Value": " Monitoreo", "Id": "643576000000698501" },
+          "Option5": { "Value": " Monitoreo", "Id": "643576000000698483" }
+        },
+        "description": "",
+        "labelname": "Job",
+        "ismandatory": false,
+        "displayType": "Pick_List",
+        "ReferedFormId": 643576000000064369,
+        "isPrimary": false,
+        "displayname": "Job",
+        "autofillvalue": "",
+        "formcomponentid": 643576000001826377,
+        "ReferedFormName": "P_TimesheetJob",
+        "ReferedFieldId": 643576000000064385,
+        "ReferedFieldName": "Job_Name"
+      },
+      {
+        "comptype": "Lookup",
+        "Options": {},
+        "description": "",
+        "labelname": "KRA",
+        "ismandatory": false,
+        "displayType": "Pick_List",
+        "ReferedFormId": 643576000000097001,
+        "isPrimary": false,
+        "displayname": "Kra",
+        "autofillvalue": "",
+        "formcomponentid": 643576000001826379,
+        "ReferedFormName": "P_KRA",
+        "ReferedFieldId": 643576000000097033,
+        "ReferedFieldName": "KRAName"
+      },
+      {
+        "comptype": "Datetime",
+        "ismandatory": false,
+        "displayname": "Modified time",
+        "autofillvalue": "",
+        "description": "",
+        "formcomponentid": 643576000001826381,
+        "labelname": "ModifiedTime"
+      },
+      {
+        "comptype": "Lookup",
+        "Options": {
+          "Option4": {
+            "Value": " JOSE LUIS MARTINEZ ",
+            "Id": "643576000000239158"
+          },
+          "Option3": {
+            "Value": " FELIPE BARRERA ",
+            "Id": "643576000000239122"
+          },
+          "Option2": {
+            "Value": " GASTON ADOLFO PERNALETE ARAUJO ",
+            "Id": "643576000000239086"
+          },
+          "Option1": {
+            "Value": " hla.backofficeadmin Q&A ",
+            "Id": "643576000000203001"
+          },
+          "Option10": {
+            "Value": " JORGE SUSUNAGA SALAZAR ",
+            "Id": "643576000000651775"
+          },
+          "Option11": {
+            "Value": " CARLOS MAURICIO CARRASCO BALANZA ",
+            "Id": "643576000000859150"
+          },
+          "Option12": { "Value": " ANNA BRIK ", "Id": "643576000001432579" },
+          "Option13": { "Value": " SONIA VARGAS ", "Id": "643576000001432615" },
+          "Option9": {
+            "Value": " VERONICA NOVELA PRIETO ",
+            "Id": "643576000000578315"
+          },
+          "Option8": {
+            "Value": " JUAN CARLOS TORRES PEREZ ",
+            "Id": "643576000000578247"
+          },
+          "Option14": {
+            "Value": " Aldejandra Serrato ",
+            "Id": "643576000001913044"
+          },
+          "Option7": {
+            "Value": " JUAN CARLOS JIMENEZ GONZALEZ ",
+            "Id": "643576000000578213"
+          },
+          "Option6": {
+            "Value": " LELIANE VERUSKA VILLEGAS CRUZ ",
+            "Id": "643576000000239342"
+          },
+          "Option5": {
+            "Value": " JESUS EDUARDO MORENO SANCHEZ ",
+            "Id": "643576000000239194"
+          }
+        },
+        "description": "",
+        "labelname": "ModifiedBy",
+        "ismandatory": false,
+        "displayType": "Pick_List",
+        "ReferedFormId": 643576000000035679,
+        "isPrimary": false,
+        "displayname": "Modified By",
+        "autofillvalue": "",
+        "formcomponentid": 643576000001826385,
+        "ReferedFormName": "P_Employee",
+        "ReferedFieldId": 643576000000036253,
+        "ReferedFieldName": "EmployeeID"
+      },
+      {
+        "comptype": "Picklist",
+        "ismandatory": false,
+        "Options": {
+          "Option4": "Highest",
+          "Option3": "High",
+          "Option2": "Medium",
+          "Option1": "Low"
+        },
+        "displayType": "Pick_List",
+        "displayname": "Priority",
+        "autofillvalue": "",
+        "description": "",
+        "formcomponentid": 643576000001826383,
+        "labelname": "Priority"
+      },
+      {
+        "tabularSections": [
+          {
+            "Competencias": [
+              {
+                "comptype": "Text",
+                "ismandatory": false,
+                "displayname": "Competencia",
+                "autofillvalue": "",
+                "description": "",
+                "formcomponentid": 643576000001827095,
+                "labelname": "Competencia",
+                "maxLength": 255
+              },
+              {
+                "comptype": "Text",
+                "ismandatory": false,
+                "displayname": "Nivel",
+                "autofillvalue": "",
+                "description": "",
+                "formcomponentid": 643576000001827127,
+                "labelname": "Nivel",
+                "maxLength": 255
+              },
+              {
+                "comptype": "Text",
+                "ismandatory": false,
+                "displayname": "Peso",
+                "autofillvalue": "",
+                "description": "",
+                "formcomponentid": 643576000001827159,
+                "labelname": "Peso",
+                "maxLength": 255
+              }
+            ],
+            "sectionId": 643576000001827041
+          },
+          {
+            "Objetivos": [
+              {
+                "comptype": "Text",
+                "ismandatory": false,
+                "displayname": "Objetivo",
+                "autofillvalue": "",
+                "description": "",
+                "formcomponentid": 643576000001840063,
+                "labelname": "Objetivo",
+                "maxLength": 255
+              },
+              {
+                "comptype": "Date",
+                "ismandatory": false,
+                "displayname": "Fecha",
+                "autofillvalue": "",
+                "description": "",
+                "formcomponentid": 643576000001840095,
+                "labelname": "Fecha"
+              }
+            ],
+            "sectionId": 643576000001840009
+          }
+        ]
+      }
+    ],
+    "message": "Data fetched successfully",
+    "uri": "/api/forms/Formulario_de_ingreso_90_dias/components",
+    "status": 0
+  }
+}

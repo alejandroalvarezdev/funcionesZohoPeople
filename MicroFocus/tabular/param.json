@@ -1,0 +1,61 @@
+{
+  "Reemplazar": "",
+  "Employee_type.id": "643576000001216513",
+  "Responsable_RRHH": "LELIANE VERUSKA VILLEGAS CRUZ",
+  "Catalogo_de_cargos": "ADMINISTRACIÓN Y FINANZAS",
+  "Seleccionado": "hla.backofficeadmin Q&A",
+  "AddedTime": "03-29-2022 14:24:21",
+  "ModifiedBy": "hla.backofficeadmin Q&A Emp001",
+  "Minimo.displayValue": "123,456.00",
+  "Tipo_Cargo": "NO GO TO MARKET",
+  "Maximo.displayValue": "234,567.00",
+  "Seleccionado.ID": "643576000000203001",
+  "ApprovalStatus": "Pending",
+  "Responsable_RRHH.ID": "643576000000239342",
+  "Department": "FINANZAS",
+  "ModifiedTime": "10-11-2022 11:20:37",
+  "Reclutamiento_Sugerida": "",
+  "Job_Family_Sub_Group": "FINANZAS",
+  "tabularSections": {
+    "Objetivos 90 días": [
+      { "Fecha": "10-11-2022", "Objetivo": "Objetivo1" },
+      { "Fecha": "10-12-2022", "Objetivo": "Objetivo2" },
+      { "Fecha": "10-13-2022", "Objetivo": "Objetivo3" }
+    ],
+    "Conocimientos": [
+      {
+        "Comentarios1": "",
+        "Area": "DIRECTORIOS",
+        "Area.id": "643576000001216559",
+        "Detalle": "algo",
+        "Nivel1": "Medio",
+        "Nivel1.id": "643576000001216585"
+      }
+    ]
+  },
+  "Pais.id": "643576000001216529",
+  "AddedBy": "ANNA BRIK Emp103",
+  "Comentar": "Algo",
+  "Pais": "ARGENTINA",
+  "Ubicacion.ID": "643576000000206065",
+  "Empresas.ID": "643576000000219283",
+  "Job_Family_Sub_Group.ID": "643576000000219110",
+  "Empresas": "NOVELL DE ARGENTINA S.A.",
+  "Region.id": "643576000001216551",
+  "Solicitante.ID": "643576000001432579",
+  "Motivos_de_Contratacion": "Cargo Nuevo",
+  "Solicitante": "ANNA BRIK",
+  "Catalogo_de_cargos.ID": "643576000000216704",
+  "Ubicacion": "BUENOS AIRES",
+  "ModifiedBy.ID": "643576000000203001",
+  "Hiring_Team": "El nuevo\n29/3/22",
+  "Employee_type": "Indefinido",
+  "Maximo": "234567.00",
+  "AddedBy.ID": "643576000001432579",
+  "Minimo": "123456.00",
+  "Region": "SUR",
+  "Department.ID": "643576000000219110",
+  "PER": "PER40",
+  "Motivos_de_Contratacion.id": "643576000001216525",
+  "Expertise": ""
+}
