@@ -1,0 +1,43 @@
+
+longitud = MorningDays.toCollection(";");
+horas = longitud.size() * 8;
+formula = (horas * 100) / 48;
+paramMap = Map();
+if(formula > 40){
+	paramMap.put("", <OBJECT>)
+}
+sendmail
+[
+from :zoho.loginuserid
+to :"david.ventura@beyondtechnology.net"
+subject :"data longitud 2"
+message :longitud.size()
+]
+sendmail
+[
+from :zoho.loginuserid
+to :"david.ventura@beyondtechnology.net"
+subject :"data longitud 2"
+message :formula
+]
+
+longitud = MorningDays.toCollection(";");
+horas = longitud.size() * 8;
+formula = (horas * 100) / 48;
+paramMap = Map();
+if(formula > 40){
+	paramMap.put("The_user_had_telework", "Yes");
+}else 
+{
+	paramMap.put("The_user_had_telework", "No");
+}
+paramMap.put("recordid", recordID);
+response = zoho.people.update("Work_Scheme", paramMap);
+sendmail
+[
+from :zoho.loginuserid
+to :"david.ventura@beyondtechnology.net"
+subject :"data longitud 2"
+message :response
+]
+

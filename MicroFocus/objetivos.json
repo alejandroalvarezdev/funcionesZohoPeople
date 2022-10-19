@@ -1,0 +1,58 @@
+{
+  "Description": "",
+  "CreatedTime": "1665518170400",
+  "AddedTime": "10-11-2022 14:56:10",
+  "ModifiedBy": "hla.backofficeadmin Q&A Emp001",
+  "ApprovalStatus": "Approval Not Enabled",
+  "Progress.displayValue": "",
+  "StartDate": "",
+  "Criterio_de_Medicion": "",
+  "KRA.ID": "",
+  "Empleado": "Emp308 - JESUS EDUARDO - MORENO SANCHEZ",
+  "ModifiedTime": "1665518184611",
+  "Empleado.ID": "643576000000239194",
+  "Zoho_ID": 643576000002020007,
+  "GWeightage": "",
+  "Avanceponderado": "0.00",
+  "tabularSections": {
+    "Competencias": [
+      {
+        "Competencia": "OBJETOS DE GESTION",
+        "Peso": "0",
+        "tabular.ROWID": "643576000002017726",
+        "Nivel": "2"
+      }
+    ],
+    "Objetivos": [
+      {
+        "Fecha": "10-11-2022",
+        "Objetivo": "Objetivo1",
+        "tabular.ROWID": "643576000002020011"
+      },
+      {
+        "Fecha": "10-12-2022",
+        "Objetivo": "Objetivo2",
+        "tabular.ROWID": "643576000002020013"
+      },
+      {
+        "Fecha": "10-13-2022",
+        "Objetivo": "Objetivo3",
+        "tabular.ROWID": "643576000002020015"
+      }
+    ]
+  },
+  "Job": "",
+  "Job.ID": "",
+  "DueDate": "",
+  "AddedBy": "hla.backofficeadmin Q&A Emp001",
+  "Progress": "",
+  "Priority": "",
+  "Objetivos_validados": "false",
+  "IsArchived": "false",
+  "ModifiedBy.ID": "643576000000203001",
+  "GWeightage.displayValue": "",
+  "AddedBy.ID": "643576000000203001",
+  "GoalName": "",
+  "componentValueDisp": "No",
+  "KRA": ""
+}
